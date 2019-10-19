@@ -1,0 +1,40 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+## Program to convert text into leet language.
+## Author : Aditya Shakya
+## Mail   : adi1090x@gmail.com
+
+## Colors
+C='\033[1;36m'
+G='\033[1;32m'
+R='\033[1;31m'
+Y='\033[1;33m'
+B='\033[1;34m'
+P='\033[1;35m'
+RE='\033[0m'
+
+## Banner
+echo
+echo -e $P"  ┌───────────────────┐"
+echo -e $P"  │   $G╻   ┏━┓┏━┓┏━┓   $P│"
+echo -e $P"  │   $G┃   ╺━┫╺━┫  ┃   $P│"
+echo -e $P"  │   $G╹╺━╸┗━┛┗━┛  ╹   $P│"
+echo -e $P"  └───────────────────┘"
+echo -e $P"  [$R"*"$P]$B Aditya Shakya $R//$B adi1090x "
+echo
+
+echo
+echo -ne $Y"  [*] Enter Text To Convert:$B "
+read text
+echo
+echo -e $C"  [*] Converting..."
+echo
+
+text () {
+    echo -e "$text" | tr 'A-Z' 'a-z' | awk '{gsub(/a/, "4")};1' | awk '{gsub(/b/, "I3")};1' | awk '{gsub(/c/, "(")};1' | awk '{gsub(/d/, ")")};1' | awk '{gsub(/e/, "3")};1' | awk '{gsub(/f/, "|=")};1' | awk '{gsub(/g/, "6")};1' | awk '{gsub(/h/, "#")};1' | awk '{gsub(/i/, "1")};1' | awk '{gsub(/j/, ",_|")};1' | awk '{gsub(/k/, "|<")};1' | awk '{gsub(/l/, "|_")};1' | awk '{gsub(/m/, "(V)")};1' | awk '{gsub(/n/, "^/")};1' | awk '{gsub(/o/, "0")};1' | awk '{gsub(/p/, "|*")};1' | awk '{gsub(/q/, "0_")};1' | awk '{gsub(/r/, "I2")};1' | awk '{gsub(/s/, "5")};1' | awk '{gsub(/t/, "7")};1' | awk '{gsub(/u/, "(_)")};1' | awk '{gsub(/v/, "/")};1' | awk '{gsub(/w/, "//")};1' | awk '{gsub(/x/, "><")};1' | awk '{gsub(/y/, "`/")};1' | awk '{gsub(/z/, "2")};1'
+return
+}
+
+echo -e $G"  [*] Leet Text Is:$B $(text)"
+echo
+set -e

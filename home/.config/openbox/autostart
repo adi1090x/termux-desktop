@@ -1,0 +1,11 @@
+## Restore Wallpaper
+feh --bg-fill "${HOME}/Pictures/2.jpg" &
+
+## Start Compositing Manager
+xcompmgr -c -t-5 -l-5 -r4.5 -o.75 -d "${DISPLAY}" &
+
+## Launch Polybar
+sh ~/.config/polybar/launch.sh
+
+# xfce settingsd
+xfsettingsd &

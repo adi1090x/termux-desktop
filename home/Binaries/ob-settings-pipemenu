@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+
+# A pipemenu base script/template for creating category based pipemenus
+# written by Nathaniel Maia, December 2017 for ArchLabs
+
+# Add something like this to your menu.xml
+# <menu execute="SCRIPTNAME" id="NAME" label="PNAME"/>
+
+NAME="settings"
+PNAME="Settings"
+FAIL_MSG="No Apps Installed"
+
+CMD=(al-panel-chooser arandr nitrogen oomox-gui pavucontrol
+gnome-system-monitor wpg rofi-theme-selector xfce4-power-manager-settings
+gnome-disk-utility xfce4-appearance-settings qt5ct xfce4-settings-manager lxappearance)
+
+DESC=("Change Panel/Dock" "Screen Settings" Wallpaper Oomox "Audio Settings"
+"System Monitor" wpgtk "Rofi Theme" "Power Manager"
+"Disk Uitlity" "Gtk Theme" "Qt Theme" "Settings Manager" LXappearance)
+
+if ! . "/data/data/com.termux/files/usr/lib/archlabs/common/al-include.cfg" 2>/dev/null; then
+    echo -e "[ERROR]: Failed to source /data/data/com.termux/files/usr/lib/archlabs/common/al-include.cfg" ; exit 1
+fi
+
+menu_Body() {
+    for ((i=0; i<${#CMD[@]}; i++)); do
+        if hash "${CMD[$i]}" &>/dev/null; then
+            menuItem "${DESC[$i]}" "${CMD[$i]}"
+        fi
+    done
+}
+
+menuStart "$NAME" "$PNAME"
+for x in "${CMD[@]}"; do
+    if hash "$x" &>/dev/null; then
+        num=1 ; break
+    fi
+done
+if [[ $num -gt 0 ]]; then
+    menu_Body
+else
+    menuSeparator "$FAIL_MSG"
+fi
+menuEnd
+
+exit 0

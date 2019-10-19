@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo
+echo -e "Capacity: $(cat /sys/class/power_supply/battery/capacity)"
+echo -e "Status: $(cat /sys/class/power_supply/battery/status)"
+echo -e "Health: $(cat /sys/class/power_supply/battery/health)"
+echo -e "Technology: $(cat /sys/class/power_supply/battery/technology)"
+echo

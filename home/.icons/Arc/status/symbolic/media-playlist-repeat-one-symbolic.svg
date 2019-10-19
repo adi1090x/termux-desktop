@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="16"
+   height="16"
+   id="svg7384"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="media-playlist-repeat-one-symbolic.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview1993" />
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <defs
+     id="defs11" />
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     d="M 6,1 6,3 5,3 C 2.23,3 0,5.23 0,8 c 0,2.77 2.23,5 5,5 L 5,11 C 3.338,11 2,9.662 2,8 2,6.338 3.338,5 5,5 L 6,5 6,7 10,4 6,1 z m 5,2 0,2 c 1.073473,0 2.001331,0.5631082 2.53125,1.40625 0.987593,0.3919346 1.827262,1.0551585 2.4375,1.90625 C 15.975486,8.2058014 16,8.1084557 16,8 16,5.23 13.77,3 11,3 z m 0.5,4 C 9.0147186,7 7,9.0147186 7,11.5 7,13.985281 9.0147186,16 11.5,16 13.985281,16 16,13.985281 16,11.5 16,9.0147186 13.985281,7 11.5,7 z m -0.5,2 1,0 0,4 1,0 0,1 -3,0 0,-1 1,0 0,-2 -1,0 0,-1 c 1,0 1,-1 1,-1 z M 6.03125,11.96875 6,12 6.03125,12.03125 c -0.00197,-0.02051 0.00174,-0.04192 0,-0.0625 z"
+     inkscape:connector-curvature="0"
+     id="rect3815"
+     style="opacity:0.9;color:#bebebe;fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+</svg>

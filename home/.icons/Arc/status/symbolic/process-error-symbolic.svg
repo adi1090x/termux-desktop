@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="16"
+   height="16"
+   id="svg7384"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="process-error-symbolic.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview6142"
+     showgrid="false"
+     inkscape:zoom="21.9375"
+     inkscape:cx="-0.20512821"
+     inkscape:cy="7.9088319"
+     inkscape:current-layer="svg7384" />
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <defs
+     id="defs9" />
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-321,-257)"
+     id="layer9">
+    <path
+       d="m 329,258.03 c -3.8533,0 -6.9688,3.1155 -6.9688,6.9688 0,3.8533 3.1155,6.9688 6.9688,6.9688 3.8533,0 6.9688,-3.1155 6.9688,-6.9688 0,-3.8533 -3.1155,-6.9688 -6.9688,-6.9688 z m -4,5.97 h 8 v 2 h -8 v -2 z"
+       inkscape:connector-curvature="0"
+       id="path10839-3"
+       style="text-indent:0;text-transform:none;block-progression:tb;color:#bebebe;fill:#ed4737;enable-background:new;fill-opacity:1" />
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+#!/bin/bash
+
+##########################################################################
+# Title      :	vsleep - visual sleep (countdown)
+# Author     :	Heiner Steven <heiner.steven@odn.de>
+# Date       :	1995-03-06
+# Requires   :
+# Category   :	System Utilities
+# SCCS-Id.   :	@(#) vsleep	1.2 03/12/19
+##########################################################################
+# Description
+#
+##########################################################################
+
+PN=`basename "$0"`			# Program name
+VER='1.2'
+
+usage () {
+    echo >&2 "$PN - sleep for some seconds, $VER (stv '95)
+usage: $PN seconds"
+    exit 1
+}
+
+msg () {
+    for i
+    do echo "$PN: $i" >&2
+    done
+}
+
+fatal () { msg "$@"; exit 1; }
+
+while [ $# -gt 0 ]
+do
+    case "$1" in
+	--)	shift; break;;
+	-h)	usage;;
+	-*)	usage;;
+	*)	break;;			# Seconds
+    esac
+    shift
+done
+
+[ $# -ne 1 ] && usage
+
+countdown="$1"
+while :
+do
+    echo -e "${countdown:-0}
+\c"
+    if [ "$countdown" -gt 0 ]
+    then countdown=`expr $countdown - 1`
+    else exit 0
+    fi
+    sleep 1
+done

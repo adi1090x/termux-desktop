@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16"
+   height="16"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.48.1 r9760"
+   version="1.0"
+   sodipodi:docname="format-text-bold.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/matt/.icons/Sirocco/scalable/mimetypes/text-plain.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   sodipodi:modified="true"
+   style="display:inline">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="17.578558"
+     inkscape:cx="-28.402333"
+     inkscape:cy="1.4187825"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     width="128px"
+     height="128px"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1028"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     showgrid="true"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       id="guide2226"
+       position="32.637397,117.99844"
+       orientation="horizontal" />
+    <sodipodi:guide
+       id="guide2230"
+       position="110,57.402344"
+       orientation="vertical" />
+    <sodipodi:guide
+       id="guide2232"
+       position="33.760911"
+       orientation="horizontal" />
+    <sodipodi:guide
+       id="guide2231"
+       position="46.774696"
+       orientation="horizontal" />
+    <inkscape:grid
+       enabled="true"
+       visible="true"
+       id="grid3231"
+       type="xygrid" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="100,67.625"
+       id="guide2713" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="display:inline"
+     inkscape:label="Calque 1"
+     id="layer1"
+     inkscape:groupmode="layer">
+    <path
+       id="path3626"
+       style="font-size:17.41496658000000153px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#bebebe;fill-opacity:1;stroke:none;font-family:sans;-inkscape-font-specification:Abandoned Bitplane Bold"
+       d="M 8.1658163,8.4676873 C 7.5308905,8.4676916 7.0518661,8.5754013 6.7287414,8.7908166 6.4112771,9.00624 6.2525471,9.3237 6.2525509,9.743198 c -3.8e-6,0.38549 0.1275471,0.688777 0.3826531,0.909864 0.2607665,0.215421 0.6207435,0.323131 1.079932,0.323129 0.5725565,2e-6 1.0544155,-0.20408 1.4455783,-0.612245 C 9.5518636,9.950116 9.7474417,9.434244 9.747449,8.8163268 l 0,-0.3486395 -1.5816327,0 m 4.6513607,-1.1479592 0,5.6802719 -3.069728,0 0,-1.658163 C 9.3392788,11.920069 8.8800956,12.342404 8.3698979,12.608844 7.8596884,12.869615 7.2389407,13 6.507653,13 5.5212553,13 4.7191019,12.713719 4.1011903,12.141157 3.4889443,11.562927 3.1828222,10.814628 3.1828229,9.896259 3.1828222,8.7794827 3.5654749,7.9603225 4.3307822,7.4387757 5.1017546,6.9172396 6.3092364,6.6564689 7.9532313,6.6564628 l 1.7942177,0 0,-0.2380953 C 9.7474417,5.9365149 9.5575326,5.5850413 9.1777211,5.3639457 8.7978961,5.137196 8.2054931,5.0238174 7.4005101,5.0238097 6.7485784,5.0238174 6.142003,5.0890101 5.5807822,5.2193879 5.0195551,5.3497808 4.4980137,5.5453588 4.0161563,5.8061226 l 0,-2.3214286 C 4.6680815,3.3259732 5.3228428,3.2069257 5.9804421,3.1275511 6.6380343,3.0425268 7.29563,3.0000098 7.9532313,3.0000001 c 1.7176799,9.7e-6 2.9563407,0.3401454 3.7159867,1.0204082 0.765296,0.6746112 1.147949,1.7743834 1.147959,3.2993198"
+       sodipodi:nodetypes="cssssscccccccssssscccsssccsssc" />
+  </g>
+</svg>

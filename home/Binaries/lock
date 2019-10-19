@@ -1,0 +1,53 @@
+#!/bin/python
+
+## Author : Aditya Shakya
+## Codename : adi1090x
+
+import os
+import time
+import signal
+import time
+
+from getpass import getpass
+
+## ctrl+c control
+def sigint_handler(signum, frame):
+
+    print("\033[1;91m  [!] Not Allowed.")
+
+signal.signal(signal.SIGINT, sigint_handler)
+
+## ctrl+z control
+#def handler(signum, frame):
+    
+#    print ("\033[1;91m  [!] Ignored.")
+
+#signal.signal(signal.SIGTSTP, handler)
+   
+def menu():
+    os.system('clear')
+    print("")
+    print('\033[1;36;40m  ███████ PLEASE LOGIN ██████')
+    print("")
+
+    x = input('\033[1;92m  [•] Username \033[1;93m: ')
+    print("")
+    e = getpass('\033[1;92m  [•] Password \033[1;93m: ')
+    print("")
+    #o = input("  [!] Show Password [ y/n ] : ")
+    #print("")
+    #if o=="y":
+    #    e = input('\033[1;92m  [•] Password \033[1;93m: ')
+    #elif o=="n":
+    #    e = getpass('\033[1;92m  [•] Password \033[1;93m: ')
+
+    if x=="root" and e=="toor":
+        print('')
+        print('  [*] Welcome!',x)
+        print("")
+    else:
+         print("")
+         print("\033[1;91m  [!] Access Denied.")
+         time.sleep(2)
+         os.system('lock')
+menu()

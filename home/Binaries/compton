@@ -1,0 +1,3 @@
+#!/data/data/com.termux/files/usr/bin/sh
+
+xcompmgr -c -t-5 -l-5 -r4.5 -o.75 -d "${DISPLAY}" &

@@ -1,0 +1,40 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+## Program to convert text into their respective alphabets numbers.
+## Author : Aditya Shakya
+## Mail   : adi1090x@gmail.com
+
+## Colors
+C='\033[1;36m'
+G='\033[1;32m'
+R='\033[1;31m'
+Y='\033[1;33m'
+B='\033[1;34m'
+P='\033[1;35m'
+RE='\033[0m'
+
+## Banner
+echo
+echo -e $P"  ┌─────────────────────────────────┐"
+echo -e $P"  │   $R┏━┓┏┓ ┏━╸         $G╺┓ ┏━┓┏━┓   $P│"
+echo -e $P"  │   $R┣━┫┣┻┓┃     $Y╺━╸ $G   ┃ ┏━┛╺━┫   $P│"
+echo -e $P"  │   $R╹ ╹┗━┛┗━╸         $G╺┻╸┗━╸┗━┛   $P│"
+echo -e $P"  └─────────────────────────────────┘"
+echo -e $P"  [$R"*"$P]$B Aditya Shakya $R//$B adi1090x "
+echo
+
+echo
+echo -ne $Y"  [*] Enter Text To Convert:$B "
+read text
+echo
+echo -e $C"  [*] Converting..."
+echo
+
+text () {
+echo -e "$text" | tr 'A-Z' 'a-z' | awk '{gsub(/a/, "1")};1' | awk '{gsub(/b/, "2")};1' | awk '{gsub(/c/, "3")};1' | awk '{gsub(/d/, "4")};1' | awk '{gsub(/e/, "5")};1' | awk '{gsub(/f/, "6")};1' | awk '{gsub(/g/, "7")};1' | awk '{gsub(/h/, "8")};1' | awk '{gsub(/i/, "9")};1' | awk '{gsub(/j/, "10")};1' | awk '{gsub(/k/, "11")};1' | awk '{gsub(/l/, "12")};1' | awk '{gsub(/m/, "13")};1' | awk '{gsub(/n/, "14")};1' | awk '{gsub(/o/, "15")};1' | awk '{gsub(/p/, "16")};1' | awk '{gsub(/q/, "17")};1' | awk '{gsub(/r/, "18")};1' | awk '{gsub(/s/, "19")};1' | awk '{gsub(/t/, "20")};1' | awk '{gsub(/u/, "21")};1' | awk '{gsub(/v/, "22")};1' | awk '{gsub(/w/, "23")};1' | awk '{gsub(/x/, "24")};1' | awk '{gsub(/y/, "25")};1' | awk '{gsub(/z/, "26")};1'
+return
+}
+
+echo -e $G"  [*] Converted Text Is:$B $(text)"
+echo
+set -e

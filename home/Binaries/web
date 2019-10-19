@@ -1,0 +1,3 @@
+#!/data/data/com.termux/files/usr/bin/sh
+
+st -f Iosevka -g 150x40 -t Browser -e elinks &

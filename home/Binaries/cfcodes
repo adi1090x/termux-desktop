@@ -1,0 +1,41 @@
+#!/bin/bash
+
+clear
+#echo
+#echo -e "   ╻ ╻   ┏━╸┏━┓╻  ┏━┓┏━┓┏━┓   ┏┓     ╺┳╸┏━╸╻ ╻╺┳╸   ╻ ╻"
+#echo -e "   ┃╹┃   ┃  ┃ ┃┃  ┃ ┃┣┳┛┗━┓   ┃╺╋╸    ┃ ┣╸ ┏╋┛ ┃    ┃╹┃"
+#echo -e "   ╹╹╹   ┗━╸┗━┛┗━╸┗━┛╹┗╸┗━┛   ┗━┛     ╹ ┗━╸╹ ╹ ╹    ╹╹╹"
+#echo
+echo
+echo -e "     ╻ ╻   ┏━╸┏━┓╻  ┏━┓┏━┓┏━┓   ╻ ╻"
+echo -e "     ┃╹┃   ┃  ┃ ┃┃  ┃ ┃┣┳┛┗━┓   ┃╹┃"
+echo -e "     ╹╹╹   ┗━╸┗━┛┗━╸┗━┛╹┗╸┗━┛   ╹╹╹"
+echo
+#echo -e "\033[1m     [*] Print White Fg Color...           █████████████"
+echo -e "\033[0m     [*] Print White Fg Color...           █████████████"
+echo -e "\033[31m     [*] Print Red Fg Color...             █████████████"
+echo -e "\033[32m     [*] Print Green Fg Color...           █████████████"
+echo -e "\033[33m     [*] Print Yellow Fg Color...          █████████████"
+echo -e "\033[34m     [*] Print Blue Fg Color...            █████████████"
+echo -e "\033[35m     [*] Print Purple Fg Color...          █████████████"
+echo -e "\033[36m     [*] Print Cyan Fg Color...            █████████████"
+echo -e "\033[0m"
+echo -e "     \033[41m[*] Print Red Background Color...." "\033[0m"
+echo -e "     \033[42m[*] Print Green Background Color.." "\033[0m"
+echo -e "     \033[43m[*] Print Yellow Background Color." "\033[0m"
+echo -e "     \033[44m[*] Print Blue Background Color..." "\033[0m"
+echo -e "     \033[45m[*] Print Purple Background Color." "\033[0m"
+echo -e "     \033[46m[*] Print Cyan Background Color...."
+echo -e "\033[0m"
+#echo
+echo -e "     ╻ ╻   ╺┳╸┏━╸╻ ╻╺┳╸   ╻ ╻"
+echo -e "     ┃╹┃    ┃ ┣╸ ┏╋┛ ┃    ┃╹┃"
+echo -e "     ╹╹╹    ╹ ┗━╸╹ ╹ ╹    ╹╹╹"
+echo
+echo -e "     [*]\033[1m This Is Bold Text."  '\033[0m'
+echo -e "     [*]\033[2m This Is Regular Text. "  '\033[0m'
+echo -e "     [*]\033[3m This Is Italic Text."    '\033[0m'
+echo -e "     [*]\033[4m This Is Underlined Text." '\033[0m'
+echo -e "     [*]\033[9m This Is Striked Text."    '\033[0m'
+echo -e "     [*]\033[6m This Is Normal Text. "   '\033[0m'
+echo 

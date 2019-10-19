@@ -1,0 +1,12 @@
+/**
+ * This theme is intended for a 3 items option menu.
+ */
+@import "shared/option-menu.rasi"
+#window {
+  padding: @option-3-window-padding;
+}
+#listview {
+  spacing: @option-3-listview-spacing;
+  lines: 3;
+}
+

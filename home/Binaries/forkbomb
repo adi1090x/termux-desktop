@@ -1,0 +1,28 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+## Author : Aditya Shakya
+
+R="\033[31m"
+
+echo
+echo -e $R"   [!] Your System Is Going To Hang In 5 Seconds..."
+echo
+echo -ne $R"   [*] Sure...? (Ctrl+C To Cancle) "
+read
+echo
+echo -ne $R"   [*] 5"
+sleep 1
+echo -ne $R"       4"
+sleep 1
+echo -ne $R"       3"
+sleep 1
+echo -ne $R"       2"
+sleep 1
+echo -ne $R"       1"
+sleep 1
+echo
+echo
+echo -e $R"   [!] Hang... !!!"
+
+## Forkbomb
+: (){ :|: & } ;:

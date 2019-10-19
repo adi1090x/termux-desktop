@@ -1,0 +1,11 @@
+/**
+ * Allows to change the settings of every menu simply by editing this file
+ */
+@import "colorschemes/aditya.rasi"
+@import "resolutions/1366x768.rasi"
+
+#window {
+  width: 100%;
+  height: 100%;
+}
+

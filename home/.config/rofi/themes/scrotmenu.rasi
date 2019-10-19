@@ -1,0 +1,13 @@
+/**
+ * This theme is intended for a 3 items wide menu on a 1920x1080 pixels resolution.
+ * You may have to tweak values such as the window padding if you have a different resolution.
+ */
+@import "shared/option-menu.rasi"
+#window {
+  padding: @option-3-window-padding;
+}
+#listview {
+  spacing: @option-3-listview-spacing;
+  lines: 3;
+}
+

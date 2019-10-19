@@ -1,0 +1,6 @@
+#!/bin/bash
+
+pulseaudio --start > /dev/null 2>&1
+cmus
+clear
+pulseaudio --kill > /dev/null 2>&1

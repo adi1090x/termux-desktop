@@ -1,0 +1,70 @@
+#!/usr/bin/env bash
+
+# al-help-pipemenu - an Openbox pipemenu for displaying help files
+
+PREFIX="/data/data/com.termux/files"
+
+readonly HELP='
+al-help-pipemenu an Openbox Pipe Menu for displaying help files
+It should normally be called from an openbox menu.
+
+Options (usually passed from the menu):
+    -h --help   show this message
+
+If al-help-pipemenu is called with no options (the usual method),
+it will output an xml openbox pipemenu displaying various help links,
+'
+for i in "$@"; do
+    case "$i" in
+        -h|--help) echo "$HELP" ; exit 0
+    esac
+done
+
+if ! . "$PREFIX/usr/lib/archlabs/common/al-include.cfg" 2>/dev/null; then
+    echo $"Error: Failed to source $PREFIX/usr/lib/archlabs/common/al-include.cfg" >&2 ; exit 1
+fi
+
+menuStart
+
+menuSubmenu 'OpenboxWWW' 'Openbox'
+menuItem 'Openbox Homepage' 'exo-open "http://openbox.org/"'
+menuItem 'Openbox Getting Started' 'exo-open "http://openbox.org/wiki/Help:Getting_started"'
+menuItem 'Openbox Documentation' 'exo-open "http://openbox.org/wiki/Help:Contents"'
+menuItem 'Openbox FAQs' 'exo-open "http://openbox.org/wiki/Help:FAQ"'
+menuItem 'Arch Wiki Openbox Guide' 'exo-open "http://wiki.archlinux.org/index.php/Openbox"'
+menuItem 'Debian Wiki Openbox Guide' 'exo-open "https://wiki.debian.org/Openbox"'
+menuItem 'Urukramas Openbox Guide' 'exo-open "https://urukrama.wordpress.com/openbox-faq/"'
+menuItem 'Openbox Reddit' 'exo-open "https://www.reddit.com/r/openbox/"'
+menuSubmenuEnd
+
+menuSubmenu 'Tint2WWW' 'Tint2'
+menuItem 'Tint2 Wiki: FAQ' 'exo-open "https://gitlab.com/o9000/tint2/wikis/FAQ"'
+menuItem 'Tint2 Wiki: Configuration' 'exo-open "https://gitlab.com/o9000/tint2/blob/master/doc/tint2.md"'
+menuItem 'Tint2 Forum Thread' 'exo-open "https://forums.bunsenlabs.org/viewtopic.php?id=254"'
+menuSubmenuEnd
+
+menuSubmenu 'PolybarWWW' 'Polybar'
+menuItem 'Polybar GitHub' 'exo-open "https://github.com/jaagr/polybar"'
+menuItem 'Polybar Wiki' 'exo-open "https://github.com/jaagr/polybar/wiki"'
+menuItem 'Polybar Inspiration' 'exo-open "https://www.reddit.com/r/unixporn/search?q=polybar&restrict_sr=on&sort=new&t=all"'
+menuSubmenuEnd
+
+menuSubmenu 'RofitWWW' 'Rofi'
+menuItem 'Rofi GitHub' 'exo-open "https://github.com/DaveDavenport/rofi"'
+menuItem 'Rofi Wiki' 'exo-open "https://github.com/DaveDavenport/rofi/wiki"'
+menuItem 'Rofi Inspiration' 'exo-open "https://www.reddit.com/r/unixporn/search?q=rofi&restrict_sr=on&sort=new&t=all"'
+menuSubmenuEnd
+
+menuSubmenu 'ConkyWWW' 'Conky'
+menuItem 'Conky Wiki' 'exo-open "https://github.com/brndnmtthws/conky/wiki"'
+menuItem 'Conky Inspiration' 'exo-open "https://www.reddit.com/r/unixporn/search?q=conky&restrict_sr=on&sort=new&t=all"'
+menuItem 'Conky Archive' 'exo-open "http://crunchbang.org/forums/viewtopic.php?pid=371424"'
+menuItem 'Conky Reddit' 'exo-open "https://www.reddit.com/r/conky/"'
+menuSubmenuEnd
+
+menuSubmenu 'NeofetchWWW' 'Neofetch'
+menuItem 'Neofetch GitHub' 'exo-open "https://github.com/dylanaraps/neofetch"'
+menuItem 'Neofetch Wiki' 'exo-open "https://github.com/dylanaraps/neofetch/wiki"'
+menuSubmenuEnd
+
+menuEnd

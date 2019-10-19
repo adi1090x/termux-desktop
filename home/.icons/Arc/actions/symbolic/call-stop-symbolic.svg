@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="call-stop-symbolic.svg"
+   inkscape:export-filename="/home/sam/dev/RESOURCES/gnome-icon-theme-symbolic/src/gnome-stencils.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   height="16"
+   id="svg7384"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   width="16"
+   enable-background="new">
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     bordercolor="#666666"
+     borderopacity="1"
+     inkscape:current-layer="layer12"
+     inkscape:cx="2.117416"
+     inkscape:cy="1.357057"
+     gridtolerance="10"
+     inkscape:guide-bbox="true"
+     guidetolerance="10"
+     id="namedview88"
+     inkscape:object-nodes="false"
+     inkscape:object-paths="false"
+     objecttolerance="10"
+     pagecolor="#3a3b39"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     showborder="true"
+     showgrid="true"
+     showguides="true"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-midpoints="false"
+     inkscape:snap-global="true"
+     inkscape:snap-grids="true"
+     inkscape:snap-nodes="true"
+     inkscape:snap-others="false"
+     inkscape:snap-to-guides="true"
+     inkscape:window-height="1280"
+     inkscape:window-maximized="0"
+     inkscape:window-width="1351"
+     inkscape:window-x="3670"
+     inkscape:window-y="76"
+     inkscape:zoom="16"
+     inkscape:snap-bbox-edge-midpoints="true">
+    <inkscape:grid
+       dotted="false"
+       empspacing="2"
+       enabled="true"
+       id="grid4866"
+       originx="139.9998px"
+       originy="650px"
+       snapvisiblegridlinesonly="true"
+       spacingx="1px"
+       spacingy="1px"
+       type="xygrid"
+       visible="true" />
+  </sodipodi:namedview>
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <defs
+     id="defs7386" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="status"
+     style="display:inline"
+     transform="translate(-101.0004,-867)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer10"
+     inkscape:label="devices"
+     style="display:inline"
+     transform="translate(-101.0004,-867)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer11"
+     inkscape:label="apps"
+     transform="translate(-101.0004,-867)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer13"
+     inkscape:label="places"
+     style="display:inline"
+     transform="translate(-101.0004,-867)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer14"
+     inkscape:label="mimetypes"
+     transform="translate(-101.0004,-867)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer15"
+     inkscape:label="emblems"
+     style="display:inline"
+     transform="translate(-101.0004,-867)" />
+  <g
+     inkscape:groupmode="layer"
+     id="g71291"
+     inkscape:label="emotes"
+     style="display:inline"
+     transform="translate(-101.0004,-867)" />
+  <g
+     inkscape:groupmode="layer"
+     id="g4953"
+     inkscape:label="categories"
+     style="display:inline"
+     transform="translate(-101.0004,-867)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer12"
+     inkscape:label="actions"
+     style="display:inline;"
+     transform="translate(-101.0004,-867)">
+    <g
+       id="call-stop_16"
+       transform="translate(101.0002,757.63784)"
+       inkscape:label="#g7781">
+      <g
+         transform="translate(3.9469968e-7,109.1342)"
+         id="g4294"
+         style="display:inline">
+        <g
+           style="display:inline"
+           inkscape:label="Calque 1"
+           id="layer1-7">
+          <path
+             inkscape:connector-curvature="0"
+             inkscape:export-ydpi="90"
+             inkscape:export-xdpi="90"
+             inkscape:export-filename="/home/matthieu/Interne/Communication/Site Web/Version 3.0/Accueil temporaire/images/phone_square.png"
+             sodipodi:nodetypes="cssssssssssssssssssssc"
+             id="path2869"
+             d="m 1.5499823,6.6893777 c 0.23971,-0.153412 1.3915468,-0.719261 1.8695439,-0.918298 0.6640059,-0.276497 1.8539796,-0.591837 2.5828856,-0.684465 0.8710681,-0.110688 1.5867302,-0.114305 2.8531712,-0.01443 1.944101,0.153314 3.580411,0.58311 4.971695,1.30586 0.641221,0.3331183 0.861214,0.4961273 1.235467,0.9154769 0.74767,0.83723 1.11983,2.153605 0.849042,3.0004614 -0.07683,0.240236 -0.132172,0.31225 -0.536951,0.698617 -0.514955,0.491534 -0.619782,0.533795 -0.97172,0.392315 C 13.84099,11.158894 11.667273,10.0711 11.578515,9.9714046 11.43203,9.8068706 11.317528,9.1661116 11.32546,8.5553236 11.33426,7.8772456 11.28595,7.8160206 10.576172,7.6057136 9.12672,7.1763236 7.727719,7.0900696 6.3088244,7.3426216 5.5727803,7.4736226 4.6649971,7.7334976 4.5325305,7.8511186 4.344346,8.0182126 4.3217518,8.1369546 4.3739827,8.6830706 c 0.061401,0.641792 0.059488,1.4079884 -0.00394,1.5832514 -0.064677,0.17868 -0.080501,0.1849 -1.3790228,0.543591 C 2.3823171,10.978055 1.7035713,11.167232 1.482686,11.23028 1.2618086,11.29336 1.0314941,11.337125 0.9708661,11.32756 0.7731197,11.29635 0.15475,10.424928 0.0441679,10.021521 -0.0680817,9.6121746 0.0421979,8.7797006 0.2780106,8.2563356 0.5236112,7.7112186 1.1400092,6.951896 1.5500054,6.6893597 Z"
+             style="display:inline;fill:#bebebe;fill-opacity:1" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

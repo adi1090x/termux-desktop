@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg xmlns:cc='http://creativecommons.org/ns#' xmlns:dc='http://purl.org/dc/elements/1.1/' sodipodi:docname='folder-drag-accept-symbolic.svg' inkscape:export-filename='/home/sam/dev/RESOURCES/gnome-icon-theme-symbolic/src/gnome-stencils.png' inkscape:export-xdpi='90' inkscape:export-ydpi='90' height='16' id='svg7384' xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd' xmlns:svg='http://www.w3.org/2000/svg' version='1.1' inkscape:version='0.48.5 r10040' width='16.000002' xmlns='http://www.w3.org/2000/svg'>
+  <metadata id='metadata90'>
+    <rdf:RDF>
+      <cc:Work rdf:about=''>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource='http://purl.org/dc/dcmitype/StillImage'/>
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview inkscape:bbox-nodes='false' inkscape:bbox-paths='true' bordercolor='#666666' borderopacity='1' inkscape:current-layer='layer9' inkscape:cx='2.962' inkscape:cy='-0.52195' gridtolerance='10' inkscape:guide-bbox='true' guidetolerance='10' id='namedview88' inkscape:object-nodes='false' inkscape:object-paths='false' objecttolerance='10' pagecolor='#3a3b39' inkscape:pageopacity='1' inkscape:pageshadow='2' showborder='false' showgrid='false' showguides='true' inkscape:snap-bbox='true' inkscape:snap-bbox-midpoints='false' inkscape:snap-global='true' inkscape:snap-grids='true' inkscape:snap-nodes='true' inkscape:snap-others='false' inkscape:snap-to-guides='true' inkscape:window-height='1375' inkscape:window-maximized='1' inkscape:window-width='2560' inkscape:window-x='0' inkscape:window-y='27' inkscape:zoom='1'>
+    <inkscape:grid dotted='false' empspacing='2' enabled='true' id='grid4866' originx='160px' originy='180px' snapvisiblegridlinesonly='true' spacingx='1px' spacingy='1px' type='xygrid' visible='true'/>
+  </sodipodi:namedview>
+  <title id='title9167'>Gnome Symbolic Icon Theme</title>
+  <defs id='defs7386'/>
+  <g inkscape:groupmode='layer' id='layer9' inkscape:label='status' style='display:inline' transform='translate(-81.0002,-397)'>
+    <path inkscape:connector-curvature='0' d='m 81.53145,398 c -0.28913,0 -0.53125,0.24212 -0.53125,0.53125 l 0,13.9375 c 0,0.2985 0.23264,0.53125 0.53125,0.53125 l 14.9375,0 c 0.2986,0 0.53125,-0.23265 0.53125,-0.53125 l 0,-8.9375 C 97.0002,403.24215 96.75808,403 96.46895,403 l -1.46875,0 0,-2.40625 C 95.0002,400.26655 94.73354,400 94.40645,400 l -7.40625,0 0,-1.46875 C 87.0002,398.2421 86.75808,398 86.46895,398 z m 2.0625,6 1,0 c 0,0 0.55232,0.0902 0.75,0.28125 L 88.0002,407 85.34395,409.71875 C 85.14627,409.90995 84.9034,410 84.59395,410 l -1,0 0,-1 c 0,-0.2569 0.12983,-0.52845 0.3125,-0.71875 L 85.1877,407 83.90645,405.71875 C 83.72378,405.52845 83.77561,405.18166 83.59395,405 z m 9.40625,0 1,0 0,1 c 0,0.2569 -0.12983,0.52845 -0.3125,0.71875 L 92.40645,407 l 1.28125,1.28125 c 0.18267,0.1903 0.3125,0.46185 0.3125,0.71875 l 0,1 -1,0 c -0.30945,0 -0.55232,-0.09 -0.75,-0.28125 L 89.59395,407 92.2502,404.28125 C 92.44788,404.09025 92.69075,404 93.0002,404 z' id='rect3845-2' sodipodi:nodetypes='sssssssscsscssscscccscscccscscscccscscccs' style='fill:#bebebe;fill-opacity:1;stroke:none;display:inline'/>
+    
+  </g>
+  <g inkscape:groupmode='layer' id='layer10' inkscape:label='devices' style='display:inline' transform='translate(-81.0002,-397)'/>
+  <g inkscape:groupmode='layer' id='layer11' inkscape:label='apps' transform='translate(-81.0002,-397)'/>
+  <g inkscape:groupmode='layer' id='layer13' inkscape:label='places' style='display:inline' transform='translate(-81.0002,-397)'/>
+  <g inkscape:groupmode='layer' id='layer14' inkscape:label='mimetypes' transform='translate(-81.0002,-397)'/>
+  <g inkscape:groupmode='layer' id='layer15' inkscape:label='emblems' style='display:inline' transform='translate(-81.0002,-397)'/>
+  <g inkscape:groupmode='layer' id='g71291' inkscape:label='emotes' style='display:inline' transform='translate(-81.0002,-397)'/>
+  <g inkscape:groupmode='layer' id='g4953' inkscape:label='categories' style='display:inline' transform='translate(-81.0002,-397)'/>
+  <g inkscape:groupmode='layer' id='layer12' inkscape:label='actions' style='display:inline' transform='translate(-81.0002,-397)'/>
+</svg>

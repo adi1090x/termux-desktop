@@ -1,0 +1,30 @@
+#!/bin/bash
+
+## Created By Aditya Shakya
+
+ac="$(cat /sys/class/power_supply/ac/online)"
+battery_percent="$(cat /sys/class/power_supply/battery/capacity)"
+
+if [ "$ac" -eq 1 ]; then
+    icon=""
+
+    if [ "$battery_percent" -gt 99 ]; then
+        echo " ﮤ"
+    else
+        echo "$icon $battery_percent%"
+    fi
+else
+    if [ "$battery_percent" -gt 85 ]; then
+        icon=""
+    elif [ "$battery_percent" -gt 60 ]; then
+        icon=""
+    elif [ "$battery_percent" -gt 35 ]; then
+        icon=""
+    elif [ "$battery_percent" -gt 10 ]; then
+        icon=""
+    else
+        icon=""
+    fi
+
+    echo "$icon $battery_percent%"
+fi

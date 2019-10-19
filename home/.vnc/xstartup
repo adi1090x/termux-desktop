@@ -1,0 +1,6 @@
+#!/data/data/com.termux/files/usr/bin/sh
+## This file is executed during VNC server
+## startup.
+
+# Start Openbox.
+openbox-session &
