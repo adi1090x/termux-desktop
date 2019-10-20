@@ -32,10 +32,10 @@ At first start a small base system is downloaded, And brings you to a minimal *b
 |openbox wm|Openbox Window Manager|```pkg install openbox obconf```|
 |xsetroot|Set color background for X|```pkg install xorg-xsetroot```|
 |polybar|Easy and fast status bar|```pkg install polybar```|
-|st|Suckless/Simple terminal|```pkg install ```|
+|st|Suckless/Simple terminal|```pkg install st```|
 |geany|Graphical text editor|```pkg install geany```|
-|thunar|File manager|```pkg install thunar```|
-|pcmanfm|File manager (optional)|```pkg install pcmanfm```|
+|thunar|File manager (optional)|```pkg install thunar```|
+|pcmanfm|File manager|```pkg install pcmanfm```|
 |rofi|An application launcher|```pkg install rofi```|
 |feh|Simple image viewer|```pkg install feh```|
 |neofetch|System info program|```pkg install neofetch```|
@@ -48,3 +48,9 @@ At first start a small base system is downloaded, And brings you to a minimal *b
 |cmus|Command line music player (optional)|```pkg install cmus```|
 |cava|Console-based audio visualizer (optional)|```pkg install cava```|
 |pulseaudio|Sound system & audio server (optional)|```pkg install pulseaudio```|
+
+You can install all important programs simply pasting this in the termux - <br />
+```
+pkg update && pkg upgrade && pkg install x11-repo && pkg install tigervnc openbox obconf xorg-xsetroot polybar st geany pcmanfm rofi feh neofetch htop vim elinks mutt 
+```
+
