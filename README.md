@@ -29,7 +29,22 @@ At first start a small base system is downloaded, And brings you to a minimal *b
 |---|---|---|
 |x11-repo|Termux repo for x11 packages|```pkg install x11-repo```|
 |vnc server|For graphical output|```pkg install tigervnc```|
-|||``````|
-|||``````|
-|||``````|
-|||``````|
+|openbox wm|Openbox Window Manager|```pkg install openbox obconf```|
+|xsetroot|Set color background for X|```pkg install xorg-xsetroot```|
+|polybar|Easy and fast status bar|```pkg install polybar```|
+|st|Suckless/Simple terminal|```pkg install ```|
+|geany|Graphical text editor|```pkg install geany```|
+|thunar|File manager|```pkg install thunar```|
+|pcmanfm|File manager (optional)|```pkg install pcmanfm```|
+|rofi|An application launcher|```pkg install rofi```|
+|feh|Simple image viewer|```pkg install feh```|
+|neofetch|System info program|```pkg install neofetch```|
+|vim|Command line text editor (! - hard to exit :D)|```pkg install vim```|
+|htop|System monitor (optional)|```pkg install htop```|
+|elinks|Command line web browser (optional)|```pkg install elinks```|
+|mutt|Command line mail client (optional)|```pkg install mutt```|
+|mc|Command line file manager (optional)|```pkg install mc```|
+|ranger|Command line file manager (optional)|```pkg install ranger```|
+|cmus|Command line music player (optional)|```pkg install cmus```|
+|cava|Console-based audio visualizer (optional)|```pkg install cava```|
+|pulseaudio|Sound system & audio server (optional)|```pkg install pulseaudio```|
