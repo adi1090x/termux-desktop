@@ -158,6 +158,11 @@ Well, Here are some ideas or things you can do with termux and how you can make 
 ![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_11.png) <br />
 ![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_12.png) <br />
 
+### Additional Tools
+You can install additional tools for termux, to make it visually look good.
+1. [Oh my zsh](https://github.com/adi1090x/termux-omz), Setup zsh with [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) framework.
+2. [Termux style](https://github.com/adi1090x/termux-style), Change color and fonts in termux.
+
 ### Not Supported Yet
 - [ ] Bitmap Fonts
 - [ ] SVG Icon Packs
@@ -167,7 +172,9 @@ Well, Here are some ideas or things you can do with termux and how you can make 
 - [ ] Some Other Things
 
 ### FYI
-* First thing first, the guide above may have some errors, everybody makes mistakes.
+* First thing first, the guide above may have some errors, everybody make mistakes.
 * If you face any problem or get any error, you can create an issue & i'll help.
 * There are some scripts made by me and some are made by other people, I've just put those here collectively.
+* You may need to edit some scripts accoring to your need (like, battery, network email for polybar & .muttrc, .gitconfig)
+* I'll make desktop configs and try to configure different window managers (fluxbox, dwm) by time.
 * Share this repository with your friends.
