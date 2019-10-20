@@ -176,5 +176,5 @@ You can install additional tools for termux, to make it visually look good.
 * If you face any problem or get any error, you can create an issue & i'll help.
 * There are some scripts made by me and some are made by other people, I've just put those here collectively.
 * You may need to edit some scripts accoring to your need (like, battery, network email for polybar & .muttrc, .gitconfig)
-* I'll make desktop configs and try to configure different window managers (fluxbox, dwm) by time.
+* I'll make more desktop configs and try to configure different window managers (fluxbox, dwm) by time.
 * Share this repository with your friends.
