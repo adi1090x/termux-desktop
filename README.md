@@ -132,3 +132,40 @@ Termux
 Now launch it. You will be prompted for password that you entered on first launch of 'vncserver'. And because you've copy pasted everthing, you'll be headed to this desktop - <br />
 
 ![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_1.png) <br />
+
+Well, That's it. You've successfully installed a beautiful graphical desktop on termux. Hurray!!! <br />
+
+## Screenshots
+Well, Here are some ideas or things you can do with termux and how you can make doing these stuff easy with a graphical desktop. And ***FYI***, I'm not doing anything **illegal** or sponsoring any kind of **Hacking and Cracking**. *Termux is a powerful tool, use it with responsibilities.* <br />
+
+**** : 
+![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview3_.png) <br />
+**** : 
+![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview4_.png) <br />
+**** : 
+![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview5_.png) <br />
+**** : 
+![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview6_.png) <br />
+**** : 
+![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview7_.png) <br />
+**** : 
+![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview8_.png) <br />
+**** : 
+![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview9_.png) <br />
+**** : 
+![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview10_.png) <br />
+**** : 
+![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview11_.png) <br />
+**** : 
+![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview12_.png) <br />
+**** : 
+![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview13_.png) <br />
+
+### Not Supported Yet
+- [ ] A
+
+### FYI
+*
+*
+*
+*
