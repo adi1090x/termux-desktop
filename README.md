@@ -31,6 +31,7 @@ At first start a small base system is downloaded, And brings you to a minimal *b
 |vnc server|For graphical output|```pkg install tigervnc```|
 |openbox wm|Openbox Window Manager|```pkg install openbox obconf```|
 |xsetroot|Set color background for X|```pkg install xorg-xsetroot```|
+|xterm|X terminal|```pkg install xterm```|
 |xcompmgr|Composite manager or desktop effects|```pkg install xcompmgr```|
 |xfsettingsd|The settings daemon, to set themes & icons|```pkg install xfsettingsd```|
 |polybar|Easy and fast status bar|```pkg install polybar```|
@@ -57,7 +58,7 @@ At first start a small base system is downloaded, And brings you to a minimal *b
 
 You can install all important programs simply pasting this in the termux - <br />
 ```
-pkg update && pkg upgrade && pkg install x11-repo && pkg install tigervnc openbox obconf xorg-xsetroot xcompmgr polybar st zsh geany pcmanfm rofi feh neofetch htop vim elinks mutt git wget curl xfsettingsd
+pkg update && pkg upgrade && pkg install x11-repo && pkg install tigervnc openbox obconf xorg-xsetroot xcompmgr xterm polybar st zsh geany pcmanfm rofi feh neofetch htop vim elinks mutt git wget curl xfsettingsd
 ```
 ## Configuration
 
@@ -138,34 +139,35 @@ Well, That's it. You've successfully installed a beautiful graphical desktop on 
 ## Screenshots
 Well, Here are some ideas or things you can do with termux and how you can make doing these stuff easy with a graphical desktop. And ***FYI***, I'm not doing anything **illegal** or sponsoring any kind of **Hacking and Cracking**. *Termux is a powerful tool, use it with responsibilities.* <br />
 
-**** : 
-![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview3_.png) <br />
-**** : 
-![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview4_.png) <br />
-**** : 
-![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview5_.png) <br />
-**** : 
-![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview6_.png) <br />
-**** : 
-![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview7_.png) <br />
-**** : 
-![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview8_.png) <br />
-**** : 
-![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview9_.png) <br />
-**** : 
-![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview10_.png) <br />
-**** : 
-![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview11_.png) <br />
-**** : 
-![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview12_.png) <br />
-**** : 
-![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview13_.png) <br />
+**Rofi** : Rofi app launcher.
+![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_3.png) <br />
+**Polybar Style** : Rofi based script to change the colors of polybar.
+![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_4.png) <br />
+**Stuff** : Running cmatrix, htop, pipes, etc. 
+![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_5.png) <br />
+**Internet** : Elinks as browser and mutt as mail client.
+![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_6.png) <br />
+**File Managers** : Pcmanfm and thunar, graphical file managers.
+![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_7.png) <br />
+**CLI File Managers** : Ranger & MC, console based file managers.
+![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_8.png) <br />
+**Text Editors** : Runnig vim, nano (CLI based) & geany (graphical) text editors.
+![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_9.png) <br />
+**Showing Off** : Ah, just some tools - 
+![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_10.png) <br />
+![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_11.png) <br />
+![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_12.png) <br />
 
 ### Not Supported Yet
-- [ ] A
+- [ ] Bitmap Fonts
+- [ ] SVG Icon Packs
+- [ ] .Xresources/.Xdefaults For xterm/aterm
+- [ ] No Web Browser (Expected Midori)
+- [ ] No Hardware Acceleration
+- [ ] Some Other Things
 
 ### FYI
-*
-*
-*
-*
+* First thing first, the guide above may have some errors, everybody makes mistakes.
+* If you face any problem or get any error, you can create an issue & i'll help.
+* There are some scripts made by me and some are made by other people, I've just put those here collectively.
+* Share this repository with your friends.
