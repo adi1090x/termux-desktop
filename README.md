@@ -22,3 +22,9 @@ Download from [F-Droid](https://f-droid.org/packages/com.termux/) <br />
 More information about installation is [here](https://wiki.termux.com/wiki/Main_Page) <br />
 
 At first start a small base system is downloaded, And brings you to a minimal *bash* shell. <br /> 
+
+## Dependencies
+
+|Package|Description|Installation|
+|---|---|---|
+|x11-repo|Termux repo for x11 packages|pkg install x11-repo|
