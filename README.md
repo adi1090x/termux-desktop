@@ -39,6 +39,10 @@ At first start a small base system is downloaded, And brings you to a minimal *b
 |rofi|An application launcher|```pkg install rofi```|
 |feh|Simple image viewer|```pkg install feh```|
 |neofetch|System info program|```pkg install neofetch```|
+|git|VCS, for cloning repos|```pkg install git```|
+|wget|Command line downloader|```pkg install wget```|
+|curl|To transfer/get internet data|```pkg install curl```|
+|zsh|A very good shell|```pkg install zsh```|
 |vim|Command line text editor (! - hard to exit :D)|```pkg install vim```|
 |htop|System monitor (optional)|```pkg install htop```|
 |elinks|Command line web browser (optional)|```pkg install elinks```|
@@ -51,6 +55,23 @@ At first start a small base system is downloaded, And brings you to a minimal *b
 
 You can install all important programs simply pasting this in the termux - <br />
 ```
-pkg update && pkg upgrade && pkg install x11-repo && pkg install tigervnc openbox obconf xorg-xsetroot polybar st geany pcmanfm rofi feh neofetch htop vim elinks mutt 
+pkg update && pkg upgrade && pkg install x11-repo && pkg install tigervnc openbox obconf xorg-xsetroot polybar st zsh geany pcmanfm rofi feh neofetch htop vim elinks mutt git wget curl
 ```
+## Configuration
+
+Now all the necessary programs are installed, it's time to configure the system. <br />
+So, first clone this repo by,
+```
+cd $HOME && git clone https://github.com/adi1090x/termux-desktop
+```
+Now go to the cloned directory *termux-desktop* and copy or move **'home' & 'usr'** directories to ***/data/data/com.termux/files***. you can do it by,
+```
+cp -rf ./home /data/data/com.termux/files && cp -rf ./usr /data/data/com.termux/files
+```
+or
+```
+mv -f ./home /data/data/com.termux/files && mv -f ./home /data/data/com.termux/files
+
+```
+**Warning** : I'm assuming you're doing this on a fresh termux install. If not so, please backup your files before running these command above. These commands will forcefully copy or move files in *home* & *usr* directory. So, before doing that, take a look inside the repo directories, and backup your existing config files (like .vimrc, .zshrc, .gitconfig, etc). <br />
 
