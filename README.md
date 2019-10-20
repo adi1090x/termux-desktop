@@ -31,6 +31,8 @@ At first start a small base system is downloaded, And brings you to a minimal *b
 |vnc server|For graphical output|```pkg install tigervnc```|
 |openbox wm|Openbox Window Manager|```pkg install openbox obconf```|
 |xsetroot|Set color background for X|```pkg install xorg-xsetroot```|
+|xcompmgr|Composite manager or desktop effects|```pkg install xcompmgr```|
+|xfsettingsd|The settings daemon, to set themes & icons|```pkg install xfsettingsd```|
 |polybar|Easy and fast status bar|```pkg install polybar```|
 |st|Suckless/Simple terminal|```pkg install st```|
 |geany|Graphical text editor|```pkg install geany```|
@@ -55,7 +57,7 @@ At first start a small base system is downloaded, And brings you to a minimal *b
 
 You can install all important programs simply pasting this in the termux - <br />
 ```
-pkg update && pkg upgrade && pkg install x11-repo && pkg install tigervnc openbox obconf xorg-xsetroot polybar st zsh geany pcmanfm rofi feh neofetch htop vim elinks mutt git wget curl
+pkg update && pkg upgrade && pkg install x11-repo && pkg install tigervnc openbox obconf xorg-xsetroot xcompmgr polybar st zsh geany pcmanfm rofi feh neofetch htop vim elinks mutt git wget curl xfsettingsd
 ```
 ## Configuration
 
@@ -75,3 +77,58 @@ mv -f ./home /data/data/com.termux/files && mv -f ./home /data/data/com.termux/f
 ```
 **Warning** : I'm assuming you're doing this on a fresh termux install. If not so, please backup your files before running these command above. These commands will forcefully copy or move files in *home* & *usr* directory. So, before doing that, take a look inside the repo directories, and backup your existing config files (like .vimrc, .zshrc, .gitconfig, etc). <br />
 
+***VNC Server***
+Now, Let's configure the **vnc server** for graphical output. Run -
+```
+vncserver -localhost
+```
+At first time, you will be prompted for setting up passwords -
+```
+You will require a password to access your desktops.
+
+Password:
+Verify:
+Would you like to enter a view-only password (y/n)? n
+```
+Note that passwords are not visible when you are typing them and maximal password length is 8 characters. <br />
+If everything is okay, you will see this message -
+```
+New 'localhost:1 ()' desktop is localhost:1
+
+Creating default startup script /data/data/com.termux/files/home/.vnc/xstartup
+Creating default config /data/data/com.termux/files/home/.vnc/config
+Starting applications specified in /data/data/com.termux/files/home/.vnc/xstartup
+Log file is /data/data/com.termux/files/home/.vnc/localhost:1.log
+```
+It means that X (vnc) server is available on display 'localhost:1'. <br />
+Finally, to make programs do graphical output to the display 'localhost:1', set environment variable like shown here (yes, without specifying 'localhost'):
+```
+export DISPLAY=":1"
+```
+You may even put this variable to your bashrc or profile so you don't have to always set it manually unless display address will be changed. <br />
+
+Now You can start the vnc server by,
+```
+vncserver
+```
+And to stop the server, run -
+```
+vncserver -kill :1
+```
+
+***VNC Client***
+Now you need a vnc client app to connect to server. I'm using this Android VNC client: [VNC Viewer](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android) (developed by RealVNC Limited). You can use [TigerVNC](https://tigervnc.org/) if you're trying to connect to server by a computer (Windows or Linux).
+
+Determine port number on which VNC server listens. It can be calculated like this: 5900 + {display number}. So for display 'localhost:1' the port will be 5901. <br />
+
+Now open the VNC Viewer application and create a new connection with the following information (assuming that VNC port is 5901) - <br />
+```
+Address:
+127.0.0.1:5901
+
+Name:
+Termux
+```
+Now launch it. You will be prompted for password that you entered on first launch of 'vncserver'. And because you've copy pasted everthing, you'll be headed to this desktop - <br />
+
+![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_1.png) <br />
