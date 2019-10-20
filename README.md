@@ -27,4 +27,9 @@ At first start a small base system is downloaded, And brings you to a minimal *b
 
 |Package|Description|Installation|
 |---|---|---|
-|x11-repo|Termux repo for x11 packages|pkg install x11-repo|
+|x11-repo|Termux repo for x11 packages|```pkg install x11-repo```|
+|vnc server|For graphical output|```pkg install tigervnc```|
+|||``````|
+|||``````|
+|||``````|
+|||``````|
