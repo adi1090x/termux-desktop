@@ -58,7 +58,7 @@ At first start a small base system is downloaded, And brings you to a minimal *b
 
 You can install all important programs simply pasting this in the termux - <br />
 ```
-pkg update && pkg upgrade && pkg install x11-repo && pkg install tigervnc openbox obconf xorg-xsetroot xcompmgr xterm polybar st zsh geany pcmanfm rofi feh neofetch htop vim elinks mutt git wget curl xfsettingsd
+pkg update && pkg upgrade && pkg install x11-repo && pkg install tigervnc openbox obconf xorg-xsetroot xcompmgr xterm polybar st zsh geany pcmanfm rofi feh neofetch htop vim elinks mutt git wget curl xfce4-settings
 ```
 ## Configuration
 
