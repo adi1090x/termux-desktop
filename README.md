@@ -33,7 +33,7 @@ At first start a small base system is downloaded, And brings you to a minimal *b
 |xsetroot|Set color background for X|```pkg install xorg-xsetroot```|
 |xterm|X terminal|```pkg install xterm```|
 |xcompmgr|Composite manager or desktop effects|```pkg install xcompmgr```|
-|xfsettingsd|The settings daemon, to set themes & icons|```pkg install xfsettingsd```|
+|xfsettingsd|The settings daemon, to set themes & icons|```pkg install xfce4-settings```|
 |polybar|Easy and fast status bar|```pkg install polybar```|
 |st|Suckless/Simple terminal|```pkg install st```|
 |geany|Graphical text editor|```pkg install geany```|
