@@ -157,6 +157,8 @@ Well, Here are some ideas or things you can do with termux and how you can make 
 ![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_10.png) <br />
 ![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_11.png) <br />
 ![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_12.png) <br />
+**Resolution** : on 1920x1080 display resolution
+![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_14.png) <br />
 
 ### Additional Tools
 You can install additional tools for termux, to make it visually look good.
