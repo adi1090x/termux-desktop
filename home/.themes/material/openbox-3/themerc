@@ -1,0 +1,116 @@
+### WINDOW
+border.width: 0
+
+window.client.padding.width: 0
+window.client.padding.height: 0
+window.handle.width: 0
+
+padding.width: 4
+padding.height: 4
+
+window.active.border.color: #d8dee8
+window.inactive.border.color: #d8dee8
+window.active.title.separator.color: #000000
+window.inactive.title.separator.color: #000000
+window.active.client.color: #1C316A
+window.inactive.client.color: #1C316A
+
+window.active.label.text.color: #FFFFFF
+window.inactive.label.text.color: #7F8388
+
+window.active.button.unpressed.image.color: #FFFFFF
+window.active.button.pressed.image.color: #FF5050
+window.active.button.disabled.image.color: #1C316A
+window.active.button.hover.image.color: #D26273
+window.active.button.toggled.unpressed.image.color: #FFFFFF
+window.active.button.toggled.pressed.image.color: #D26273
+window.active.button.toggled.hover.image.color: #D26273
+
+window.inactive.button.unpressed.image.color: #A9ABB0
+window.inactive.button.pressed.image.color: #FF5050
+window.inactive.button.disabled.image.color: #1C316A
+window.inactive.button.hover.image.color: #D26273
+window.inactive.button.toggled.unpressed.image.color: #A9ABB0
+window.inactive.button.toggled.pressed.image.color: #FF5050
+window.inactive.button.toggled.hover.image.color: #D26273
+
+window.active.title.bg: flat
+window.active.title.bg.color: #000000
+window.active.label.bg: parentrelative
+#window.active.handle.bg: texture
+#window.active.grip.bg: texture
+window.inactive.title.bg: flat solid
+window.inactive.title.bg.color: #000000
+window.inactive.label.bg: flat solid
+window.inactive.label.bg.color: #000000
+#window.inactive.handle.bg: texture
+#window.inactive.grip.bg: texture
+
+window.active.button.unpressed.bg: parentrelative
+window.active.button.pressed.bg: parentrelative
+window.active.button.hover.bg: parentrelative
+window.active.button.disabled.bg: parentrelative
+window.active.button.toggled.unpressed.bg: parentrelative
+window.active.button.toggled.pressed.bg: parentrelative
+window.active.button.toggled.hover.bg: parentrelative
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.pressed.bg: parentrelative
+window.inactive.button.hover.bg: parentrelative
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.toggled.unpressed.bg: parentrelative
+window.inactive.button.toggled.pressed.bg: parentrelative
+window.inactive.button.toggled.hover.bg: parentrelative
+
+window.label.text.justify: center
+
+#window.active.label.text.font: text shadow
+#window.inactive.label.text.font: text shadow
+
+### MENU
+menu.border.width: 6
+menu.separator.width: 1
+menu.separator.padding.width: 10
+menu.separator.padding.height: 2
+
+menu.overlap.x: -10
+menu.overlap.y: 0
+
+menu.border.color: #f5f5f5
+menu.separator.color: #f5f5f5
+
+menu.title.text.color: #e3eaf3
+menu.items.text.color: #252525
+menu.items.disabled.text.color: #76797F
+menu.items.active.text.color: #D26273
+menu.items.active.disabled.text.color: #aeb0b6
+
+menu.items.bg: flat solid
+menu.items.bg.color: #f5f5f5
+menu.items.active.bg: flat solid
+menu.items.active.bg.color: #f5f5f5
+menu.title.bg: flat gradient horizontal
+menu.title.bg.color: #BF616A
+menu.title.bg.colorTo: #000000
+
+menu.title.text.justify: center
+
+#menu.items.font: text shadow
+#menu.title.text.font: text shadow
+
+### OSD
+osd.border.width: 4
+
+osd.border.color: #d8dee8
+
+osd.label.text.color: #d8dee8
+
+osd.bg: flat solid
+osd.bg.color: #000000
+osd.label.bg: flat solid
+osd.label.bg.color: #000000
+osd.hilight.bg: flat solid
+osd.hilight.bg.color: #BF616A
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #BF616A
+
+#osd.label.text.font: text shadow
