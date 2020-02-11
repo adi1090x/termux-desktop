@@ -1,5 +1,11 @@
 ![logo](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/logo.png) <br />
 
+<p align="center">
+  <img src="https://img.shields.io/github/issues/adi1090x/termux-desktop?color=violet&style=for-the-badge">
+  <img src="https://img.shields.io/github/forks/adi1090x/termux-desktop?color=teal&style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/adi1090x/termux-desktop?style=for-the-badge">
+</p>
+
 Alright, Lets's get this straight, these are just some **dotfiles**, which will help you to setup a graphical environment in **termux**. It's kind of a *backup* for me as well. <br />
 
 This repo contains config files, some useful & important scripts. I'm trying to make it a *step by step guide* to setup a beautiful ***linux desktop in your android device*** with termux, So follow the steps and you'll end up making it look like this - <br />
