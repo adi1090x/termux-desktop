@@ -73,7 +73,7 @@ So, first clone this repo by,
 ```
 cd $HOME && git clone https://github.com/adi1090x/termux-desktop
 ```
-Now go to the cloned directory *termux-desktop* and copy or move **'home' & 'usr'** directories to ***/data/data/com.termux/files***. you can do it by,
+Now go to the cloned directory *termux-desktop* and copy or move **home** directory to ***/data/data/com.termux/files***. you can do it by,
 ```
 cp -rf ./home /data/data/com.termux/files && cp -rf ./usr /data/data/com.termux/files
 ```
