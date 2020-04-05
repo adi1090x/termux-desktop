@@ -64,7 +64,7 @@ At first start a small base system is downloaded, And brings you to a minimal *b
 
 You can install all important programs simply pasting this in the termux - <br />
 ```
-pkg update && pkg upgrade && pkg install x11-repo && pkg install tigervnc openbox obconf xorg-xsetroot xcompmgr xterm polybar st zsh geany pcmanfm rofi feh neofetch htop vim elinks mutt git wget curl xfce4-settings
+pkg update && pkg upgrade && pkg install x11-repo && pkg install tigervnc openbox obconf xorg-xsetroot xcompmgr xterm polybar st libnl zsh geany pcmanfm rofi feh neofetch htop vim elinks mutt git wget curl xfce4-settings
 ```
 ## Configuration
 
@@ -73,7 +73,7 @@ So, first clone this repo by,
 ```
 cd $HOME && git clone https://github.com/adi1090x/termux-desktop
 ```
-Now go to the cloned directory *termux-desktop* and copy or move **home** & **usr** directory to ***/data/data/com.termux/files***. you can do it by,
+Now go to the cloned directory *termux-desktop* and copy or move **home** & **usr** (Basically `usr/lib/archlabs/common`) directory to ***/data/data/com.termux/files***. you can do it by,
 ```
 cp -rf ./home /data/data/com.termux/files && cp -rf ./usr /data/data/com.termux/files
 ```
