@@ -40,7 +40,7 @@ At first start a small base system is downloaded, And brings you to a minimal *b
 |xterm|X terminal|```pkg install xterm```|
 |xcompmgr|Composite manager or desktop effects|```pkg install xcompmgr```|
 |xfsettingsd|The settings daemon, to set themes & icons|```pkg install xfce4-settings```|
-|polybar|Easy and fast status bar|```pkg install polybar```|
+|polybar|Easy and fast status bar|```pkg install polybar libnl```|
 |st|Suckless/Simple terminal|```pkg install st```|
 |geany|Graphical text editor|```pkg install geany```|
 |thunar|File manager (optional)|```pkg install thunar```|
@@ -73,13 +73,13 @@ So, first clone this repo by,
 ```
 cd $HOME && git clone https://github.com/adi1090x/termux-desktop
 ```
-Now go to the cloned directory *termux-desktop* and copy or move **home** directory to ***/data/data/com.termux/files***. you can do it by,
+Now go to the cloned directory *termux-desktop* and copy or move **home** & **usr** directory to ***/data/data/com.termux/files***. you can do it by,
 ```
 cp -rf ./home /data/data/com.termux/files && cp -rf ./usr /data/data/com.termux/files
 ```
 or
 ```
-mv -f ./home /data/data/com.termux/files && mv -f ./home /data/data/com.termux/files
+mv -f ./home /data/data/com.termux/files && mv -f ./usr /data/data/com.termux/files
 
 ```
 **Warning** : I'm assuming you're doing this on a fresh termux install. If not so, please backup your files before running these command above. These commands will forcefully copy or move files in *home* & *usr* directory. So, before doing that, take a look inside the repo directories, and backup your existing config files (like .vimrc, .zshrc, .gitconfig, etc). <br />
