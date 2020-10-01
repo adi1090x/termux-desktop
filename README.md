@@ -138,7 +138,7 @@ Termux
 ```
 Now launch it. You will be prompted for password that you entered on first launch of 'vncserver'. And because you've copy pasted everthing, you'll be headed to this desktop - <br />
 
-![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_1.png) <br />
+![desktop](./previews/preview_1.png) <br />
 
 Well, That's it. You've successfully installed a beautiful graphical desktop on termux. Hurray!!! <br />
 
@@ -146,25 +146,25 @@ Well, That's it. You've successfully installed a beautiful graphical desktop on 
 Well, Here are some ideas or things you can do with termux and how you can make doing these stuff easy with a graphical desktop. And ***FYI***, I'm not doing anything **illegal** or sponsoring any kind of **Hacking and Cracking**. *Termux is a powerful tool, use it with responsibilities.* <br />
 
 **Rofi** : Rofi app launcher.
-![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_3.png) <br />
+![desktop](./previews/preview_3.png) <br />
 **Polybar Style** : Rofi based script to change the colors of polybar.
-![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_4.png) <br />
+![desktop](./previews/preview_4.png) <br />
 **Stuff** : Running cmatrix, htop, pipes, etc. 
-![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_5.png) <br />
+![desktop](./previews/preview_5.png) <br />
 **Internet** : Elinks as browser and mutt as mail client.
-![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_6.png) <br />
+![desktop](./previews/preview_6.png) <br />
 **File Managers** : Pcmanfm and thunar, graphical file managers.
-![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_7.png) <br />
+![desktop](./previews/preview_7.png) <br />
 **CLI File Managers** : Ranger & MC, console based file managers.
-![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_8.png) <br />
+![desktop](./previews/preview_8.png) <br />
 **Text Editors** : Runnig vim, nano (CLI based) & geany (graphical) text editors.
-![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_9.png) <br />
+![desktop](./previews/preview_9.png) <br />
 **Showing Off** : Ah, just some tools - 
-![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_10.png) <br />
-![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_11.png) <br />
-![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_12.png) <br />
+![desktop](./previews/preview_10.png) <br />
+![desktop](./previews/preview_11.png) <br />
+![desktop](./previews/preview_12.png) <br />
 **Resolution** : on 1920x1080 display resolution
-![desktop](https://raw.githubusercontent.com/adi1090x/termux-desktop/master/previews/preview_14.png) <br />
+![desktop](./previews/preview_14.png) <br />
 
 ### Additional Tools
 You can install additional tools for termux, to make it visually look good.
