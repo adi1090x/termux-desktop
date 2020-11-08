@@ -1,0 +1,23 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+#colors
+R='\033[1;31m'
+B='\033[1;34m'
+C='\033[0;36m'
+G='\033[1;32m'
+W='\033[1;37m'
+Y='\033[1;33m'
+
+echo
+echo -e $Y" >> Please enter following details: "
+echo
+echo -ne $R" [*] IP Address :$G "
+read ip
+echo
+echo -ne $R" [*] Port :$G "
+read port
+echo
+echo -e $Y" [*] Server Starting With Given Values..."$C
+echo
+php -S $ip:$port
+

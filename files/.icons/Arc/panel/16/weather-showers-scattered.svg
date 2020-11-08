@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16"
+   height="16"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.91 r13725"
+   version="1.0"
+   sodipodi:docname="weather-showers-scattered.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#e7e7e7"
+     borderopacity="1"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="23.105011"
+     inkscape:cx="4.7094178"
+     inkscape:cy="4.3777738"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:showpageshadow="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1029"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="true">
+    <sodipodi:guide
+       orientation="1,0"
+       position="0,112"
+       id="guide2383" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid3672"
+       visible="true"
+       enabled="true" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="22.008699,4.1542523"
+       id="guide2950" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="11.22532,22.008699"
+       id="guide2952" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:nodetypes="ccsccscsscc"
+       id="path3863"
+       d="m 7,-18 c -1.8768845,0 -3.4437066,1.287639 -3.875,3.03125 C 1.92405,-14.7862 1,-13.751934 1,-12.5 c 0,1.380712 1.1192881,2.5 2.5,2.5 l 9,0 c 1.380712,0 2.5,-1.119288 2.5,-2.5 0,-1.208123 -0.860792,-2.204384 -2,-2.4375 6.5e-4,-0.02096 0,-0.04138 0,-0.0625 0,-1.104569 -0.895431,-2 -2,-2 -0.379916,0 -0.728742,0.128564 -1.03125,0.3125 C 9.2367617,-17.497359 8.1776106,-18 7,-18 z"
+       style="color:#000000;fill:#ececec;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       inkscape:transform-center-y="-0.48682856"
+       sodipodi:nodetypes="ssscs"
+       inkscape:connector-curvature="0"
+       id="path3878"
+       d="M 8.5,11.874521 C 8.5,12.522552 8.0604763,13 7.5000004,13 6.9356517,13 6.5,12.526117 6.5,11.874523 6.5,10.98275 7.4999997,10 7.4999997,10 7.4999997,10 8.5,10.983027 8.5,11.874521 z"
+       style="color:#000000;fill:#ececec;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       style="color:#000000;fill:#ececec;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 7.5,0 C 5.164201,0 3.253781,1.785153 3.03125,4.0625 1.877066,4.283877 1,5.281256 1,6.5 1,7.880712 2.119288,9 3.5,9 l 4,0 4,0 C 13.432997,9 15,7.432997 15,5.5 15,3.567003 13.432997,2 11.5,2 11.41568,2 11.332827,2.02539 11.25,2.03125 10.446562,0.802689 9.077518,0 7.5,0 z"
+       id="path3901"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

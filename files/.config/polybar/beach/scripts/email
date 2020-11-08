@@ -1,0 +1,9 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+mails=$(email 2>/dev/null)
+
+if [[ "$mails" =~ ^-?[[:digit:]]+$ ]]; then
+	echo "$mails"
+else
+	echo "NA"
+fi

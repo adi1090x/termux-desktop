@@ -1,0 +1,14 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+# Music info
+
+status="$(mpc status)"
+song=$(mpc -f "%artist% - %title%" current)
+echo "$song"
+
+#if [[ $status == *"[playing]"* ]]; then
+#	play_pause=""
+#else
+#	play_pause=""
+#fi
+#echo "$play_pause $song"

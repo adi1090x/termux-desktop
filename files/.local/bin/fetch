@@ -1,0 +1,26 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+if  [[ $1 = "-blue" ]]; then
+neofetch --ascii_colors 4 4 4 4 4 --colors 4 4 4 4 4
+elif [[ $1 = "-crimson" ]]; then
+neofetch --ascii_colors 1 1 1 1 1 --colors 1 1 1 1 1
+elif [[ $1 = "-cyan" ]]; then
+neofetch --ascii_colors 6 6 6 6 6 --colors 6 6 6 6 6
+elif [[ $1 = "-froly" ]]; then
+neofetch --ascii_colors 9 9 9 9 9 --colors 9 9 9 9 9
+elif [[ $1 = "-lavender" ]]; then
+neofetch --ascii_colors 13 13 13 13 13 --colors 13 13 13 13 13
+elif [[ $1 = "-lime" ]]; then
+neofetch --ascii_colors 2 2 2 2 2 --colors 2 2 2 2 2
+elif [[ $1 = "-orange" ]]; then
+neofetch --ascii_colors 3 3 3 3 3 --colors 3 3 3 3 3
+elif [[ $1 = "-paper" ]]; then
+neofetch --ascii_colors 7 7 7 7 7 --colors 7 7 7 7 7
+elif [[ $1 = "-violet" ]]; then
+neofetch --ascii_colors 5 5 5 5 5 --colors 5 5 5 5 5
+else
+echo "Available options:
+-blue		-lavender	-paper
+-crimson	-lime		-violet
+-froly		-orange		-cyan"
+fi

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="16"
+   height="16"
+   id="svg7384"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="mail-forward-symbolic.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview7"
+     showgrid="false"
+     inkscape:zoom="23.3125"
+     inkscape:cx="-0.32171582"
+     inkscape:cy="7.9142091"
+     inkscape:current-layer="svg7384" />
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <defs
+     id="defs11" />
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="mail-forward_16"
+     transform="translate(-76,-470.36215)"
+     inkscape:label="#g8327">
+    <g
+       transform="translate(76.030627,470.26215)"
+       id="g5718"
+       style="display:inline">
+      <g
+         style="display:inline"
+         inkscape:label="Calque 1"
+         id="layer1-019">
+        <path
+           sodipodi:nodetypes="cccccczc"
+           inkscape:connector-curvature="0"
+           id="path3874"
+           d="M 3.8602604,13.2 C 2.3514534,9.36014 4.3589754,9.2779205 7.9693734,10 l 0,3 5.9999996,-5 -5.9999996,-5 0,3 C 5.8031344,6 4.3120164,5.6091712 2.7775974,7.3241101 1.2431784,9.0390492 2.0550614,10.672722 3.8602604,13.2 Z"
+           style="display:inline;fill:#bebebe;fill-opacity:1;stroke:none" />
+      </g>
+    </g>
+  </g>
+</svg>

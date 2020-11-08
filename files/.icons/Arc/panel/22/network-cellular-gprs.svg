@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg7384"
+   version="1.1"
+   height="22"
+   width="22"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="network-cellular-gprs.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview14"
+     showgrid="false"
+     inkscape:zoom="21.9375"
+     inkscape:cx="-8.1822113"
+     inkscape:cy="7.8176638"
+     inkscape:current-layer="svg7384" />
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs7386" />
+  <g
+     transform="translate(-57.99995,-234)"
+     id="layer9"
+     style="display:inline">
+    <path
+       inkscape:connector-curvature="0"
+       d="m 63.06245,237 c -1.150728,0 -2.0625,0.91177 -2.0625,2.0625 l 0,11.875 c 0,1.15073 0.911772,2.0625 2.0625,2.0625 l 11.875,0 c 1.150728,0 2.0625,-0.91177 2.0625,-2.0625 l 0,-11.875 c 0,-1.15073 -0.911772,-2.0625 -2.0625,-2.0625 l -11.875,0 z m 4.0625,3.03125 3.78125,0 0.0625,0 c 0.0032,-1e-4 -0.0032,0.0314 0,0.0312 0.527306,-0.0204 1.072537,0.076 1.5,0.46875 0.414747,0.38112 0.59343,1.00751 0.5625,1.59375 l 0.03125,0 0,0.125 0,0.75 -2,0 0,-0.875 0,-0.0625 0,-0.0312 c -0.01759,-0.002 0.0033,-0.002 -0.03125,0 l -0.03125,0 -0.03125,0 -3.84375,0 c -0.02762,0 -0.02197,0.002 -0.03125,0 -0.0064,0.004 -0.02919,-0.003 -0.03125,0 -0.0073,0.0224 0.0068,0.0466 0,0.0625 l 0,0.0312 0,5.8125 c -0.02367,-0.0217 -0.0031,0.0605 0,0.0625 l 3.90625,0 c 0.0068,-0.0193 0.02945,-0.016 0.03125,0 8.77e-4,0.008 0,-0.0554 0,-0.0312 l 0,-1.9375 -2,0 0,-2 3,0 1,0 0,1 0,2.9375 c 0,0.56264 -0.227078,0.99952 -0.5625,1.375 -0.31592,0.35364 -0.851921,0.632 -1.46875,0.625 l 0,0.0312 -0.09375,0 -3.8125,0 c -0.624797,0 -0.994128,-0.24123 -1.34375,-0.5625 -0.331051,-0.30421 -0.64392,-0.78987 -0.625,-1.4375 6e-5,-0.002 -0.03131,0.002 -0.03125,0 l 0,-0.0937 0,-5.8125 0,-0.0937 0,-0.0625 c 0.06247,-0.43728 0.205355,-0.88912 0.5625,-1.28125 0.357145,-0.39213 0.946079,-0.625 1.5,-0.625 z"
+       id="rect7011"
+       style="color:#bebebe;display:inline;overflow:visible;visibility:visible;fill:#ececec;fill-opacity:1;stroke:none;stroke-width:2;marker:none" />
+  </g>
+  <g
+     transform="translate(-57.99995,-234)"
+     id="layer10" />
+  <g
+     transform="translate(-57.99995,-234)"
+     id="layer11" />
+  <g
+     transform="translate(-57.99995,-234)"
+     id="layer12" />
+  <g
+     transform="translate(-57.99995,-234)"
+     id="layer13" />
+  <g
+     transform="translate(-57.99995,-234)"
+     id="layer14" />
+  <g
+     transform="translate(-57.99995,-234)"
+     id="layer15" />
+</svg>

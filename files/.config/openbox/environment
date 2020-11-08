@@ -1,0 +1,5 @@
+#
+# Set system-wide environment variables here for Openbox
+# User-specific variables should be placed in $HOME/.config/openbox/environment
+#
+export PATH=$HOME/.local/bin:$PATH

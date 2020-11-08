@@ -1,0 +1,18 @@
+## Restore Wallpaper
+sh $HOME/.fehbg
+
+## xfce4-settings daemon
+xfsettingsd &
+
+## Start Compositing Manager
+ob-compositor --start &
+sleep 2
+
+## Launch Polybar
+sh ~/.config/polybar/launch.sh
+
+## Start Music Player Daemon
+mpd &
+
+## Thunar Daemon
+thunar --daemon &

@@ -1,0 +1,49 @@
+#!/bin/bash
+
+STYLE="default"
+
+rofi_command="rofi -theme $STYLE/network.rasi"
+
+## Get info
+_operator=$(termux-telephony-deviceinfo 2>/dev/null | jq -r '.network_operator_name' 2>/dev/null)
+_nt=$(termux-telephony-deviceinfo 2>/dev/null | jq -r '.network_type' 2>/dev/null)
+_dt=$(termux-telephony-deviceinfo 2>/dev/null | jq -r '.data_enabled' 2>/dev/null)
+
+active=""
+urgent=""
+
+if (ping -c 1 archlinux.org || ping -c 1 google.com || ping -c 1 bitbucket.org || ping -c 1 github.com || ping -c 1 sourceforge.net) &>/dev/null; then
+	connected=" Connected To Internet"
+	active="-a 0"
+	PIP="$(wget --timeout=30 http://ipinfo.io/ip -qO -)"
+else
+    urgent="-u 0"
+    SSID="Disconnected"
+    PIP="NA"
+    connected=" Offline"
+fi
+
+## Icons
+bmon=" Open Bandwidth Monitor"
+_opr=" Operator : ${_operator}"
+_ntl=" Network Type : ${_nt}"
+
+options="$connected\n$_opr\n$_ntl\n$bmon"
+
+## Main
+chosen="$(echo -e "$options" | $rofi_command -p "IP : $PIP" -dmenu $active $urgent -selected-row 1)"
+case $chosen in
+    $connected)
+		echo
+        ;;
+    $bmon)
+        xfce4-terminal -e bmon
+        ;;
+    $_opr)
+        echo
+        ;;
+    $_ntl)
+        echo
+        ;;
+esac
+

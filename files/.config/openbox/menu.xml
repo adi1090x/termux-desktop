@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/  file:///usr/share/openbox/menu.xsd">
+  <menu id="root-menu" title="Menu" label="Openbox 3">
+<!--	<separator label="Main Menu"/>  -->
+		<item label="Terminal Emulator">
+			<action name="Execute">
+				<command>xfce4-terminal</command>
+			</action>
+		</item>
+		<item label="Web Browser">
+			<action name="Execute">
+				<command>netsurf-gtk3</command>
+			</action>
+		</item>
+		<item label="File Manager">
+			<action name="Execute">
+				<command>thunar</command>
+			</action>
+		</item>
+		<item label="Text Editor">
+			<action name="Execute">
+				<command>geany</command>
+			</action>
+		</item>
+		<separator/>
+		<menu id="root-menu-srct" label="Terminal">
+			<item label="Vim">
+				<action name="Execute">
+					<execute>xfce4-terminal -e vim</execute>
+				</action>
+			</item>
+			<item label="Nano">
+				<action name="Execute">
+					<execute>xfce4-terminal -e nano</execute>
+				</action>
+			</item>
+			<item label="Ranger">
+				<action name="Execute">
+					<execute>xfce4-terminal -e ranger</execute>
+				</action>
+			</item>
+			<item label="Htop">
+				<action name="Execute">
+					<execute>xfce4-terminal -e htop</execute>
+				</action>
+			</item>
+			<item label="Ncmpcpp">
+				<action name="Execute">
+					<execute>xfce4-terminal -e ncmpcpp</execute>
+				</action>
+			</item>
+			<item label="Mutt">
+				<action name="Execute">
+					<execute>xfce4-terminal -e mutt</execute>
+				</action>
+			</item>
+			<item label="Elinks">
+				<action name="Execute">
+					<execute>xfce4-terminal -e elinks</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-8399" label="Quick Links">
+			<item label="DuckDuckGo">
+				<action name="Execute">
+					<execute>netsurf-gtk3 https://start.duckduckgo.com/</execute>
+				</action>
+			</item>
+			<item label="Google">
+				<action name="Execute">
+					<execute>netsurf-gtk3 https://www.google.com</execute>
+				</action>
+			</item>
+			<item label="Wikipedia">
+				<action name="Execute">
+					<execute>netsurf-gtk3 https://www.wikipedia.org</execute>
+				</action>
+			</item>
+			<item label="Termux">
+				<action name="Execute">
+					<execute>netsurf-gtk3 https://wiki.termux.com/wiki/Main_Page</execute>
+				</action>
+			</item>
+			<item label="Twitter">
+				<action name="Execute">
+					<execute>netsurf-gtk3 https://www.twitter.com</execute>
+				</action>
+			</item>
+			<item label="GitHub">
+				<action name="Execute">
+					<execute>netsurf-gtk3 https://www.github.com</execute>
+				</action>
+			</item>
+			<item label="Reddit">
+				<action name="Execute">
+					<execute>netsurf-gtk3 https://www.reddit.com</execute>
+				</action>
+			</item>
+			<item label="Stackoverflow">
+				<action name="Execute">
+					<execute>netsurf-gtk3 https://stackoverflow.com/questions</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<menu execute="ob-places-pipemenu --recent ~/" id="pipe-placesmenu" label="Places"/>
+		<menu execute="ob-recent-files-pipemenu" id="pipe-164328" label="Recent Files"/>
+		<menu id="preferences" label="Preferences">
+			<menu id="obConfig" label="Openbox">
+				<item label="Settings">
+					<action name="Execute">
+						<command>obconf</command>
+					</action>
+				</item>
+				<separator/>
+				<item label="Edit menu.xml">
+					<action name="Execute">
+						<command>exo-open ~/.config/openbox/menu.xml</command>
+					</action>
+				</item>
+				<item label="Edit rc.xml">
+					<action name="Execute">
+						<command>exo-open ~/.config/openbox/rc.xml</command>
+					</action>
+				</item>
+				<item label="Edit autostart">
+					<action name="Execute">
+						<command>exo-open ~/.config/openbox/autostart</command>
+					</action>
+				</item>
+				<separator/>
+				<item label="Openbox Reconfigure">
+					<action name="Reconfigure"/>
+				</item>
+				<item label="Openbox Restart">
+					<action name="Restart"/>
+				</item>
+			</menu>
+			<menu execute="ob-compositor" id="CompositingPipeMenu" label="Compositor"/>
+			<separator/>
+			<menu execute="change_style.sh" id="StylePipeMenu" label="Change Style"/>
+			<menu execute="change_font.sh" id="FontPipeMenu" label="Change Font"/>
+			<menu execute="change_launcher.sh" id="LauncherPipeMenu" label="Change Launcher"/>
+			<separator/>
+			<menu execute="change_wall.sh" id="wallPipeMenu" label="Change Wallpaper"/>
+			<menu execute="canvas_ob" id="CanvasPipeMenu" label="Generate Wallpaper"/>
+			<item label="Appearance Settings">
+				<action name="Execute">
+					<command>xfce4-appearance-settings</command>
+				</action>
+			</item>
+			<item label="Settings Manager">
+				<action name="Execute">
+					<command>xfce4-settings-manager</command>
+				</action>
+			</item>
+		</menu>
+		<menu execute="ob-kb-pipemenu" id="keybinds" label="Keybinds"/>
+		<separator/>
+		<menu id="root-menu-exit" label="Exit Desktop">
+			<item label="Exit Openbox">
+				<action name="Execute">
+					<command>openbox --exit</command>
+				</action>
+			</item>
+			<item label="Kill VNC Server">
+				<action name="Execute">
+					<execute>killall Xvnc</execute>
+				</action>
+			</item>
+		</menu>
+	</menu>
+</openbox_menu>
+<!-- vim:sw=2
+-->

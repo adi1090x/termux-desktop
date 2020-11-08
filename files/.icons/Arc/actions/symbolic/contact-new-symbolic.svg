@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="16"
+   height="16"
+   id="svg7384"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="contact-new-symbolic.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview7"
+     showgrid="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:zoom="24.9375"
+     inkscape:cx="0.18045111"
+     inkscape:cy="8"
+     inkscape:current-layer="svg7384">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4135" />
+  </sodipodi:namedview>
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <defs
+     id="defs11" />
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="contact-new_16"
+     transform="translate(-38,-109.36216)"
+     inkscape:label="#g7793">
+    <g
+       transform="translate(38,110.34616)"
+       id="g4326"
+       style="display:inline">
+      <g
+         style="display:inline"
+         inkscape:label="Calque 1"
+         id="layer1-6">
+        <path
+           inkscape:connector-curvature="0"
+           style="display:inline;fill:#bebebe;fill-opacity:1;stroke:none;enable-background:new"
+           d="m 8,0.03125 c -1.490787,0 -2.6875,1.0431118 -2.6875,2.375 C 5.3161,2.5588866 5.32718,2.7476455 5.34375,2.9375 5.107819,3.0578919 5.070802,3.5253646 5.28125,4 5.3624,4.1830218 5.450658,4.3483096 5.5625,4.46875 5.5892,4.5941543 5.62396,4.7022958 5.65625,4.84375 5.756269,5.1309738 6.167296,5.6605602 6.53125,6.125 6.56755,6.4832838 6.57301,6.8424604 6.5,7.25 5.452424,8.081958 2.777235,8.451213 2.78125,9.3125 L 2.65625,10 4.90625,10 6,10 6,9 A 0.99332376,0.99332376 0 0 1 6.90625,8 0.99332376,0.99332376 0 0 1 7,8 l 2,0 a 0.99332376,0.99332376 0 0 1 1,1 l 0,1 1.1875,0 2.15625,0 -0.125,-0.6875 C 13.21445,8.575354 10.534734,8.111287 9.5,7.25 9.4581,6.9200799 9.44743,6.606203 9.46875,6.28125 9.799651,5.7926478 10.233024,5.1617245 10.34375,4.84375 10.38444,4.6790798 10.40589,4.5476494 10.4375,4.40625 10.53521,4.2919247 10.615367,4.1626861 10.6875,4 10.887348,3.5492648 10.859931,3.1150965 10.65625,2.96875 10.67048,2.7729011 10.68156,2.5736356 10.6875,2.40625 10.687501,1.074362 9.490788,0.03125 8,0.03125 Z M 7,9 l 0,2 -2,0 0,2 2,0 0,2 2,0 0,-2 2,0 0,-2 -2,0 0,-2 -2,0 z"
+           id="path3798" />
+      </g>
+    </g>
+  </g>
+</svg>

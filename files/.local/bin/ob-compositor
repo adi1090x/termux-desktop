@@ -1,0 +1,46 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+if ! . "/data/data/com.termux/files/home/.local/lib/termux-ob/common/al-include.cfg" 2>/dev/null; then
+    echo $"Error: Failed to source /data/data/com.termux/files/home/.local/lib/termux-ob/common/al-include.cfg" >&2 ; exit 1
+fi
+
+checkcomp() {
+    pgrep xcompmgr &>/dev/null
+}
+
+stopcomp() {
+    checkcomp && killall xcompmgr
+}
+
+startcomp() {
+    stopcomp
+    # With Fading
+    ## xcompmgr -cfF -I-.05 -O-.05 -D1 -t-12 -l-12 -r8 -o.40 &
+    # Without Fading
+    xcompmgr -c -r 8 -o 0.40 -l -12 -t -12 &
+    exit 0
+}
+
+if [[ $1 = '--start' ]]; then
+    startcomp
+
+elif [[ $1 = '--stop' ]]; then
+    stopcomp
+
+elif [[ $1 = '--restart' ]]; then
+	stopcomp
+	startcomp
+else
+    menuStart
+    if ! [[ $(pidof xcompmgr) ]]; then
+        menuItem 'Enable Compositing' "$0 --start"
+    else
+        menuSeparator
+        menuItem 'Restart Compositing' "$0 --restart"
+        menuItem 'Disable Compositing' "$0 --stop"
+        menuSeparator
+    fi
+    menuEnd
+fi
+
+exit 0

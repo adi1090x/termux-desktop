@@ -1,0 +1,41 @@
+#!/bin/bash
+
+STYLE="default"
+
+rofi_command="rofi -theme $STYLE/screenshot.rasi"
+
+# Data
+_perc=$(termux-battery-status 2>/dev/null | jq -r '.percentage' 2>/dev/null)
+_stts=$(termux-battery-status 2>/dev/null | jq -r '.status' 2>/dev/null)
+_temp=$(termux-battery-status 2>/dev/null | jq -r '.temperature' 2>/dev/null)
+_health=$(termux-battery-status 2>/dev/null | jq -r '.health' 2>/dev/null)
+
+# Options
+perc=" Current : ${_perc}%"
+if [[ "$_stts" == "DISCHARGING" ]]; then
+	stts=" Status : ${_stts}"
+else
+	stts=" Status : ${_stts}"	
+fi
+temp=" Temperature : ${_temp%.*}°C"
+health=" Health : ${_health}"
+
+# Variable passed to rofi
+options="$perc\n$stts\n$temp\n$health"
+
+chosen="$(echo -e "$options" | $rofi_command -p 'Battery Status' -dmenu -selected-row 0)"
+case $chosen in
+    $perc)
+		echo
+        ;;
+    $stts)
+		echo
+        ;;
+    $temp)
+		echo
+        ;;
+    $health)
+		echo
+        ;;
+esac
+

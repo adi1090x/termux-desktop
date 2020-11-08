@@ -1,0 +1,32 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+# get phone's battery
+
+battery=$(termux-battery-status 2>/dev/null | jq -r '.percentage' 2>/dev/null)
+charge=$(termux-battery-status 2>/dev/null | jq -r '.status' 2>/dev/null)
+
+if [[ "$battery" =~ ^-?[[:digit:]]+$ ]]; then
+	if [[ "$charge" == "CHARGING" ]]; then
+		icon=""
+
+		if [[ "$battery" -gt 99 ]]; then
+			echo " Unplug"
+		else
+			echo "$icon $battery%"
+		fi
+	else
+		if [[ "$battery" -gt 65 ]]; then
+			icon=""
+		elif [[ "$battery" -gt 35 ]]; then
+			icon=""
+		elif [[ "$battery" -gt 10 ]]; then
+			icon=""
+		else
+			icon=""
+		fi
+
+		echo "$icon $battery%"
+	fi
+else
+	echo " NA"
+fi

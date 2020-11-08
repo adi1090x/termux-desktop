@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16"
+   height="16"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.91 r13725"
+   version="1.0"
+   sodipodi:docname="weather-few-clouds.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#e7e7e7"
+     borderopacity="1"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.93345"
+     inkscape:cx="-9.9575001"
+     inkscape:cy="-16.695536"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:showpageshadow="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1029"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="true">
+    <sodipodi:guide
+       orientation="1,0"
+       position="0,112"
+       id="guide2383" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid3672"
+       visible="true"
+       enabled="true" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="22.008699,4.1542523"
+       id="guide2950" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="11.22532,22.008699"
+       id="guide2952" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="color:#000000;fill:#ececec;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 12.5,9 c 1.932997,0 3.5,1.567003 3.5,3.5 0,1.932997 -1.567003,3.5 -3.5,3.5 l -3,0 C 8.119288,16 7,14.880712 7,13.5 7,12.17372 8.03855,11.114742 9.34375,11.03125 9.898474,9.830684 11.090611,9 12.5,9 z"
+       id="path3098"
+       inkscape:connector-curvature="0" />
+    <path
+       style="color:#000000;fill:#ececec;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 5.84375 0 L 5.59375 2.84375 C 6.1875807 2.5692995 6.8485023 2.4029842 7.5 2.34375 L 5.84375 0 z M 12.15625 0.8125 L 9.9375 2.65625 C 10.252247 2.7695953 10.543847 2.8893504 10.84375 3.0625 C 11.143654 3.2356496 11.400716 3.4403442 11.65625 3.65625 L 12.15625 0.8125 z M 8 3 C 5.2385763 3 3 5.2385763 3 8 C 3 10.105586 4.3138263 11.888009 6.15625 12.625 C 6.3043381 12.125431 6.5481894 11.674655 6.90625 11.3125 C 5.5057266 10.855052 4.5 9.5533008 4.5 8 C 4.5 6.0670034 6.0670034 4.5 8 4.5 C 9.9329966 4.5 11.5 6.0670034 11.5 8 C 11.5 8.0417063 11.501447 8.0836465 11.5 8.125 C 11.819864 8.0466673 12.151079 8 12.5 8 C 12.671496 8 12.833436 8.0437255 13 8.0625 C 13.00027 8.0410745 13 8.0214897 13 8 C 13 5.2385763 10.761424 3 8 3 z M 0.8125 3.84375 L 2.65625 6.0625 C 2.7695953 5.7477534 2.8893504 5.4561539 3.0625 5.15625 C 3.2356496 4.856346 3.4403442 4.5992833 3.65625 4.34375 L 0.8125 3.84375 z M 13.15625 5.59375 C 13.430701 6.1875805 13.597015 6.8485021 13.65625 7.5 L 16 5.84375 L 13.15625 5.59375 z M 2.34375 8.5 L 0 10.15625 L 2.84375 10.40625 C 2.5692996 9.8124193 2.4029845 9.1514974 2.34375 8.5 z M 4.34375 12.34375 L 3.84375 15.1875 L 6 13.375 C 6.0008436 13.353144 6.0299691 13.334184 6.03125 13.3125 C 5.7309041 13.203146 5.4440888 13.103684 5.15625 12.9375 C 4.856346 12.76435 4.599283 12.559656 4.34375 12.34375 z "
+       id="path3085" />
+  </g>
+</svg>
