@@ -126,7 +126,7 @@ setup_omz() {
 		alias ld='ls -lhd'
 		alias p='pwd'
 
-		alias rm='rm -rf'
+		#alias rm='rm -rf'
 		alias u='cd $PREFIX'
 		alias h='cd $HOME'
 		alias :q='exit'
