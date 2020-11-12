@@ -1,8 +1,10 @@
 # ![logo](./previews/logo.png)
 
-| | | | | |
-|-|-|-|-|-|
-|![Maintained](https://img.shields.io/badge/Maintained%3F-Yes-green?style=for-the-badge)|![License](https://img.shields.io/github/license/adi1090x/termux-desktop?style=for-the-badge)|![Issues](https://img.shields.io/github/issues/adi1090x/termux-desktop?color=violet&style=for-the-badge)|![Forks](https://img.shields.io/github/forks/adi1090x/termux-desktop?color=teal&style=for-the-badge)|![Stars](https://img.shields.io/github/stars/adi1090x/termux-desktop?style=for-the-badge)|
+![Maintained](https://img.shields.io/badge/Maintained%3F-Yes-green?style=for-the-badge)
+![License](https://img.shields.io/github/license/adi1090x/termux-desktop?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/adi1090x/termux-desktop?color=violet&style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/adi1090x/termux-desktop?color=teal&style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/adi1090x/termux-desktop?style=for-the-badge)
 
 Alright, Lets just get this straight, these are just some **dotfiles** & **scripts**, which will help you to setup a graphical environment in **termux**. I've tried to make it *as easy as possible* to setup a beautiful ***linux desktop on your android device*** with termux, So follow the steps and you'll end up making it look like this -
 
