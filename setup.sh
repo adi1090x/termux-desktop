@@ -229,6 +229,7 @@ setup_vnc() {
 		# Launch Openbox Window Manager.
 		openbox-session &
 	_EOF_
+        chmod u+rx $HOME/.vnc/xstartup
 	if [[ $(pidof Xvnc) ]]; then
 		    echo -e ${ORANGE}"[*] Server Is Running..."
 		    { reset_color; vncserver -list; }
