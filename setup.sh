@@ -202,9 +202,9 @@ setup_config() {
 	done
 	
 	# Copy config files
-	echo -e ${RED}"\n[*] Coping config files... "
+	echo -e ${RED}"\n[*] Copying config files... "
 	for _config in "${configs[@]}"; do
-		echo -e ${CYAN}"\n[*] Coping $_config..."
+		echo -e ${CYAN}"\n[*] Copying $_config..."
 		{ reset_color; cp -rf $(pwd)/files/$_config $HOME; }
 	done
 	if [[ ! -d "$HOME/Desktop" ]]; then
