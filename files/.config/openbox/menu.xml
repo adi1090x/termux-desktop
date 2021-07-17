@@ -9,7 +9,7 @@
 		</item>
 		<item label="Web Browser">
 			<action name="Execute">
-				<command>netsurf-gtk3</command>
+				<command>otter-browser</command>
 			</action>
 		</item>
 		<item label="File Manager">
@@ -63,42 +63,42 @@
 		<menu id="root-menu-8399" label="Quick Links">
 			<item label="DuckDuckGo">
 				<action name="Execute">
-					<execute>netsurf-gtk3 https://start.duckduckgo.com/</execute>
+					<execute>otter-browser https://start.duckduckgo.com/</execute>
 				</action>
 			</item>
 			<item label="Google">
 				<action name="Execute">
-					<execute>netsurf-gtk3 https://www.google.com</execute>
+					<execute>otter-browser https://www.google.com</execute>
 				</action>
 			</item>
 			<item label="Wikipedia">
 				<action name="Execute">
-					<execute>netsurf-gtk3 https://www.wikipedia.org</execute>
+					<execute>otter-browser https://www.wikipedia.org</execute>
 				</action>
 			</item>
 			<item label="Termux">
 				<action name="Execute">
-					<execute>netsurf-gtk3 https://wiki.termux.com/wiki/Main_Page</execute>
+					<execute>otter-browser https://wiki.termux.com/wiki/Main_Page</execute>
 				</action>
 			</item>
 			<item label="Twitter">
 				<action name="Execute">
-					<execute>netsurf-gtk3 https://www.twitter.com</execute>
+					<execute>otter-browser https://www.twitter.com</execute>
 				</action>
 			</item>
 			<item label="GitHub">
 				<action name="Execute">
-					<execute>netsurf-gtk3 https://www.github.com</execute>
+					<execute>otter-browser https://www.github.com</execute>
 				</action>
 			</item>
 			<item label="Reddit">
 				<action name="Execute">
-					<execute>netsurf-gtk3 https://www.reddit.com</execute>
+					<execute>otter-browser https://www.reddit.com</execute>
 				</action>
 			</item>
 			<item label="Stackoverflow">
 				<action name="Execute">
-					<execute>netsurf-gtk3 https://stackoverflow.com/questions</execute>
+					<execute>otter-browser https://stackoverflow.com/questions</execute>
 				</action>
 			</item>
 		</menu>
