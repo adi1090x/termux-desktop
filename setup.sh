@@ -58,7 +58,7 @@ _pkgs=(bc bmon calc calcurse curl dbus desktop-file-utils elinks feh fontconfig-
 		geany git gtk2 gtk3 lxtask htop-legacy imagemagick jq l3afpad man mpc mpd mutt ncmpcpp \
 		ncurses-utils neofetch otter-browser obconf lxappearance papirus-icon-theme openbox openssl-tool polybar ranger rofi \
 		startup-notification termux-api thunar tigervnc vim wget xarchiver xbitmaps xcompmgr \
-		xfce4-settings xfce4-terminal xmlstarlet xorg-font-util xorg-xrdb zsh)
+		xfce4-settings proot proot-distro xorg-xhost audacious xfce4-terminal xmlstarlet xorg-font-util xorg-xrdb zsh)
 
 setup_base() {
 	echo -e ${RED}"\n[*] Installing Termux Desktop..."
