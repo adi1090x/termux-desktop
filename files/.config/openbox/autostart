@@ -16,3 +16,6 @@ mpd &
 
 ## Thunar Daemon
 thunar --daemon &
+
+## Launch xhost to run proot-distro apps
+xhost + &
