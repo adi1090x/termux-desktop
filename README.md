@@ -68,7 +68,7 @@ git clone --depth=1 https://github.com/layaachmad/termux-desktop-v2.git
 
 - Change to cloned directory and run `setup.sh` with *--install* option
 ```
-cd termux-desktop
+cd termux-desktop-v2
 chmod +x setup.sh
 ./setup.sh --install
 ```
