@@ -204,7 +204,7 @@ Well, These are some ideas or things you can do with termux desktop. From Learni
 - Penetration testing and Learn cyber security stuff
 
 > I'm not doing anything **illegal** or sponsoring any kind of **Hacking and Cracking**. *Termux is not a hacking, use it with responsibilities.* <br />
-https://wiki.termux.com/Hacking
+https://wiki.termux.com/wiki/Hacking
 
 |Metasploit - Sherlock - Socialfish - Zphisher - Sqlmap|
 |--|
