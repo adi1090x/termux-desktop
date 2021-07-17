@@ -56,7 +56,7 @@ After installing both applications above, open `Termux` and follow the steps bel
 
 - Update termux packages and install `git`
 ```
-pkg upgrade && pkg install git
+pkg up && pkg in git wget -y
 ```
 
 - Clone this repository
