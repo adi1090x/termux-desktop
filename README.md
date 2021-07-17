@@ -26,7 +26,7 @@ You can install termux from f-droid. Do not install termux google play. <br />
 
 - Download from [F-Droid](https://f-droid.org/packages/com.termux/) <br />
 
-- Read the google play is not treated as official, May cause bintray errors [Link](https://wiki.termux.com/wiki/Termux_Google_Play/) <br />
+- Read the google play is not treated as official, May cause bintray errors [Link](https://wiki.termux.com/wiki/Termux_Google_Play) <br />
 
 More information about installation is [here](https://wiki.termux.com/wiki/Main_Page) <br />
 
