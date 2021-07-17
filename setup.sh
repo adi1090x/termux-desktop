@@ -4,6 +4,7 @@
 ## Mail    : adi1090x@gmail.com
 ## Github  : @adi1090x
 ## Twitter : @adi1090x
+## Fork : @layaachmad
 
 ## Termux Desktop : Setup GUI in Termux 
 
@@ -55,7 +56,7 @@ usage() {
 ## Update, X11-repo, Program Installation
 _pkgs=(bc bmon calc calcurse curl dbus desktop-file-utils elinks feh fontconfig-utils fsmon \
 		geany git gtk2 gtk3 lxtask htop-legacy imagemagick jq l3afpad man mpc mpd mutt ncmpcpp \
-		ncurses-utils neofetch otter-browser obconf openbox openssl-tool polybar ranger rofi \
+		ncurses-utils neofetch otter-browser obconf lxappearance papirus-icon-theme openbox openssl-tool polybar ranger rofi \
 		startup-notification termux-api thunar tigervnc vim wget xarchiver xbitmaps xcompmgr \
 		xfce4-settings xfce4-terminal xmlstarlet xorg-font-util xorg-xrdb zsh)
 
