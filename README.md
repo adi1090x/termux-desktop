@@ -271,3 +271,6 @@ You can install additional tools for termux, to make it visually look good.
 - Don't Email or DM me to ask how to hack, I ain't a Hacker. 
 - Have Fun, Share this repository with your friends.
 
+### Discord server stufd
+
+Discord server link: https://discord.gg/9WzHndMXHP
