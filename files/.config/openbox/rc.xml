@@ -20,7 +20,7 @@
   </placement>
   <theme>
     <name>adaptive</name>
-    <titleLayout>MLC</titleLayout>
+    <titleLayout>NLIMC</titleLayout>
     <keepBorder>no</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
@@ -404,7 +404,7 @@
     </keybind>
     <keybind key="W-w">
       <action name="Execute">
-        <command>netsurf-gtk3</command>
+        <command>otter-browser</command>
       </action>
     </keybind>
     <keybind key="A-F1">

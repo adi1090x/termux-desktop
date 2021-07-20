@@ -22,16 +22,27 @@ Termux is an *Android terminal emulator* and **Linux environment** app that work
 
 ### How To install termux?
 
-You can install termux form google play store or from f-droid. <br />
+You can install termux from f-droid. Do not install termux google play. <br />
 
-- Get it on [Google Play](https://play.google.com/store/apps/details?id=com.termux)
 - Download from [F-Droid](https://f-droid.org/packages/com.termux/) <br />
+
+- Read the google play is not treated as official, May cause bintray errors [Link](https://wiki.termux.com/wiki/Termux_Google_Play) <br />
 
 More information about installation is [here](https://wiki.termux.com/wiki/Main_Page) <br />
 
 ### Preparation
 
 Install `Termux` & `Termux:API` on your phone. It's recommended to install *Termux API* application as many desktop elements are dependent on it.
+
+
+### If wants Termux:Wayland, Uninstall Termux F-Droid and addons and grab the debug builds, PS. T:Wayland is fast
+
+https://github.com/suhan-paradkar/termux-wayland
+
+https://github.com/termux/termux-app/actions
+
+https://github.com/termux/termux-api/actions/
+
 
 > This setup is created and tested on :
 >
@@ -45,19 +56,19 @@ After installing both applications above, open `Termux` and follow the steps bel
 
 - Update termux packages and install `git`
 ```
-pkg upgrade && pkg install git
+pkg up && pkg in git wget -y
 ```
 
 - Clone this repository
 ```
-git clone --depth=1 https://github.com/adi1090x/termux-desktop.git
+git clone --depth=1 https://github.com/layaachmad/termux-desktop-v2.git
 ```
 
 > **Warning** : I'm assuming that you're doing this on a fresh termux install. If not, I'll suggest you to do so. However the `setup.sh` script backup every file it replace, It's still recommended that you manually backup your files in order to avoid conflicts. <br />
 
 - Change to cloned directory and run `setup.sh` with *--install* option
 ```
-cd termux-desktop
+cd termux-desktop-v2
 chmod +x setup.sh
 ./setup.sh --install
 ```
@@ -192,7 +203,8 @@ Well, These are some ideas or things you can do with termux desktop. From Learni
 
 - Penetration testing and Learn cyber security stuff
 
-> I'm not doing anything **illegal** or sponsoring any kind of **Hacking and Cracking**. *Termux is a powerful tool, use it with responsibilities.* <br />
+> I'm not doing anything **illegal** or sponsoring any kind of **Hacking and Cracking**. *Termux is not a hacking, use it with responsibilities.* <br />
+https://wiki.termux.com/wiki/Hacking
 
 |Metasploit - Sherlock - Socialfish - Zphisher - Sqlmap|
 |--|
@@ -259,3 +271,6 @@ You can install additional tools for termux, to make it visually look good.
 - Don't Email or DM me to ask how to hack, I ain't a Hacker. 
 - Have Fun, Share this repository with your friends.
 
+### Discord server stuff
+
+Discord server link: https://discord.gg/9WzHndMXHP
