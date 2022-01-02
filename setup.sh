@@ -184,7 +184,17 @@ setup_omz() {
 		]	
 	_EOF_
 	# change shell and reload configs
-	{ chsh -s zsh; termux-reload-settings; termux-setup-storage; }
+	{ chsh -s zsh; } \
+	&& { echo -e "${GREEN}Changed shell to /bin/zsh"; } \
+	|| { echo -e "${MAGENTA}Failed to change shell. Please run $ chsh -s zsh"; }
+
+	{ termux-reload-settings; } \
+	&& { echo -e "${GREEN}Settings reloaded successfully"; } \
+	|| { echo -e "${MAGENTA}Failed to run $ termux-reload-settings. Restart app after installation is complete"; }
+
+	{ termux-setup-storage; } \
+	&& { echo -e "${GREEN}Ran termux-setup-storage successfully, you should now have a ~/storage folder"; } \
+	|| { echo -e "${MAGENTA}Failed to execute $ termux-setup-storage"; }
 }
 
 ## Configuration
@@ -280,6 +290,9 @@ post_msg() {
 		  
 	_MSG_
 	{ reset_color; exit 0; }
+	
+	# replace the current session's shell with zsh
+	exec ${PREFIX}/bin/zsh
 }
 
 ## Install Termux Desktop
