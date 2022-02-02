@@ -189,6 +189,17 @@ setup_omz() {
 
 ## Configuration
 setup_config() {
+	# ensure /etc/machine-id exists for xfce4-settings
+	# ref: issue #110 - https://github.com/adi1090x/termux-desktop/issues/110
+	#
+	# Check if ${PREFIX}/etc/machine-id exists, if not, generate it
+	if [[ $(find ${PREFIX}/etc/ -type f -name machine-id | wc -l) == 0 ]]; then
+		dbus-uuidgen --ensure=/data/data/com.termux/files/usr/etc/machine-id
+		machineUUID=$(cat ${PREFIX}/etc/machine-id)
+		echo -e ${CYAN}"\n[*] Generated UUID: ${machineUUID}"
+		reset_color
+	fi
+
 	# backup
 	configs=($(ls -A $(pwd)/files))
 	echo -e ${RED}"\n[*] Backing up your files and dirs... "
