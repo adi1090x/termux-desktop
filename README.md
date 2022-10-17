@@ -57,7 +57,7 @@ git clone --depth=1 https://github.com/khansaad1275/termux-desktop-Bug-Fixed.git
 
 - Change to cloned directory and run `setup.sh` with *--install* option
 ```
-cd termux-desktop
+cd termux-desktop-Bug-Fixed 
 chmod +x setup.sh
 ./setup.sh --install
 ```
