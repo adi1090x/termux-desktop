@@ -59,7 +59,7 @@ git clone --depth=1 https://github.com/khansaad1275/termux-desktop-Bug-Fixed.git
 ```
 cd termux-desktop-Bug-Fixed 
 chmod +x setup.sh
-./setup.sh --install
+./setup.vb --install
 ```
 
 > If script `setup.sh` fails during package installation (due to network issues), you can re-execute it again.
