@@ -24,7 +24,7 @@ Termux is an *Android terminal emulator* and **Linux environment** app that work
 
 You can install termux form google play store or from f-droid. <br />
 
-- Get it on [Google Play](https://play.google.com/store/apps/details?id=com.termux)
+- Get it on [Github](https://github.com/termux/termux-app)
 - Download from [F-Droid](https://f-droid.org/packages/com.termux/) <br />
 
 More information about installation is [here](https://wiki.termux.com/wiki/Main_Page) <br />
