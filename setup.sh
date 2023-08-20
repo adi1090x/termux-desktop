@@ -99,7 +99,7 @@ setup_omz() {
 	{ reset_color; git clone https://github.com/robbyrussell/oh-my-zsh.git --depth 1 $HOME/.oh-my-zsh; }
 	cp $HOME/.oh-my-zsh/templates/zshrc.zsh-template $HOME/.zshrc
 	sed -i -e 's/ZSH_THEME=.*/ZSH_THEME="aditya"/g' $HOME/.zshrc
-	sed -i -e 's|# export PATH=.*|export PATH=$HOME/.local/bin:$PATH|g' $HOME/.zshrc
+
 	# ZSH theme
 	cat > $HOME/.oh-my-zsh/custom/themes/aditya.zsh-theme <<- _EOF_
 		# Default OMZ theme
@@ -267,6 +267,15 @@ setup_launcher() {
 	_EOF_
 	if [[ -f "$file" ]]; then
 		echo -e ${GREEN}"[*] Script ${ORANGE}$file ${GREEN}created successfully."
+	fi
+	
+	# defining PATH reference for ~/.local/bin in /etc/profile
+	# to avoid issues with launching the whole script, when zsh / oh-my-zsh fails to install
+	#   ref: https://github.com/adi1090x/termux-desktop/issues/99
+	echo "export PATH=${PATH}:${HOME}/.local/bin" >> ${PREFIX}/etc/profile
+	
+	if [[ $(grep "export PATH.*/home/.local/bin" ${PREFIX}/etc/profile | wc -l) > 0 ]]; then
+		echo -e ${GREEN}"[*] \$PATH reference ${ORANGE}~/.local/bin ${GREEN}added to /etc/profile successfully."
 	fi
 }
 
