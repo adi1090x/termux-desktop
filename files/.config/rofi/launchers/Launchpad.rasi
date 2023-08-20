@@ -99,11 +99,15 @@ element {
 }
 
 element-icon {
+    background-color:               inherit;
+    text-color:                     inherit;
     size:                           65px;
     border:                         0px;
 }
 
 element-text {
+    background-color:               inherit;
+    text-color:                     inherit;
     expand:                         true;
     horizontal-align:               0.5;
     vertical-align:                 0.5;

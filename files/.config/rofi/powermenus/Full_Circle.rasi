@@ -94,11 +94,15 @@ element {
 }
 
 element-icon {
+    background-color:               inherit;
+    text-color:                     inherit;
     size:                           65px;
     border:                         0px;
 }
 
 element-text {
+    background-color:               inherit;
+    text-color:                     inherit;
 	font:							"feather 64";
     expand:                         true;
     horizontal-align:               0.5;
